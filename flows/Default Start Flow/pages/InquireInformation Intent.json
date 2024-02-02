@@ -1,0 +1,78 @@
+{
+  "name": "952de60e-2961-4a51-b2d8-0644bd9bb766",
+  "displayName": "InquireInformation Intent",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = contact_salesperson",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "REQ Flow",
+    "name": "82cc620e-57db-4c69-bc63-4f3112202912"
+  }, {
+    "condition": "$session.params.intent = state_payment",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Collect Info For Tracking",
+    "name": "fabf177b-4167-4327-ba5d-e17942ac65fa"
+  }, {
+    "condition": "$session.params.intent = inquire_more_information",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Collect Question",
+    "name": "a42fad03-f159-40a0-96f9-636351384b03"
+  }, {
+    "condition": "$session.params.intent = \"sys\\.no_match\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Question",
+    "name": "7ae28380-ce70-488e-896f-98ae45578848"
+  }, {
+    "condition": "$session.params.intent = seek_garage",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Find Garage",
+    "name": "7b75d01c-3884-4aab-939a-a50a6bff57ab"
+  }, {
+    "condition": "$session.params.intent = inquire_financial",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Question",
+    "name": "9a24f529-91b4-4ccd-8de0-30c3bfc5ca1c"
+  }, {
+    "condition": "$session.params.intent = inquire_document_state",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Collect Info For Tracking",
+    "name": "d9e2f96e-a37f-4763-ac4a-72f59a7e4bd2"
+  }, {
+    "condition": "$session.params.intent = send_additional_documents",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Collect Info For Tracking",
+    "name": "ce33e2c4-342d-4791-878d-a6052d373837"
+  }, {
+    "condition": "$session.params.intent = inquire_other_insurances",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Question",
+    "name": "a10c749a-2222-47ff-b7fa-b0efcb036e6c"
+  }, {
+    "condition": "$session.params.intent = inquire_payment_procedures",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Question",
+    "name": "502a23e8-9315-4f2b-803a-939b8577e109"
+  } ]
+}

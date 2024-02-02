@@ -1,0 +1,759 @@
+{
+  "entities": [ {
+    "value": "[aA][0-9]",
+    "synonyms": [ "[aA][0-9]" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\d{3}[id]",
+    "synonyms": [ "\\d{3}[id]" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\d{3}[CL][id]",
+    "synonyms": [ "\\d{3}[CL][id]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[xX][0-9]",
+    "synonyms": [ "[xX][0-9]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[xX][0-9] [mM]",
+    "synonyms": [ "[xX][0-9] [mM]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[qQ]{2}",
+    "synonyms": [ "[qQ]{2}" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]olorado",
+    "synonyms": [ "[cC]olorado" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]aptiva",
+    "synonyms": [ "[cC]aptiva" ],
+    "languageCode": "th"
+  }, {
+    "value": "[oO]ptra",
+    "synonyms": [ "[oO]ptra" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]ruze",
+    "synonyms": [ "[cC]ruze" ],
+    "languageCode": "th"
+  }, {
+    "value": "[aA]veo",
+    "synonyms": [ "[aA]veo" ],
+    "languageCode": "th"
+  }, {
+    "value": "[tT]railblazer",
+    "synonyms": [ "[tT]railblazer" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]onic",
+    "synonyms": [ "[sS]onic" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]pin",
+    "synonyms": [ "[sS]pin" ],
+    "languageCode": "th"
+  }, {
+    "value": "500",
+    "synonyms": [ "500" ],
+    "languageCode": "th"
+  }, {
+    "value": "[eE]xplorer",
+    "synonyms": [ "[eE]xplorer" ],
+    "languageCode": "th"
+  }, {
+    "value": "[eE]verest",
+    "synonyms": [ "[eE]verest" ],
+    "languageCode": "th"
+  }, {
+    "value": "[rR]anger",
+    "synonyms": [ "[rR]anger" ],
+    "languageCode": "th"
+  }, {
+    "value": "[eE]scape",
+    "synonyms": [ "[eE]scape" ],
+    "languageCode": "th"
+  }, {
+    "value": "[fF]ocus",
+    "synonyms": [ "[fF]ocus" ],
+    "languageCode": "th"
+  }, {
+    "value": "[fF]iesta",
+    "synonyms": [ "[fF]iesta" ],
+    "languageCode": "th"
+  }, {
+    "value": "[eE]coSport",
+    "synonyms": [ "[eE]coSport" ],
+    "languageCode": "th"
+  }, {
+    "value": "[jJ]olion",
+    "synonyms": [ "[jJ]olion" ],
+    "languageCode": "th"
+  }, {
+    "value": "[aA]ccord",
+    "synonyms": [ "[aA]ccord" ],
+    "languageCode": "th"
+  }, {
+    "value": "[jJ]azz",
+    "synonyms": [ "[jJ]azz" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]ivic",
+    "synonyms": [ "[cC]ivic" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]ity",
+    "synonyms": [ "[cC]ity" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]tream",
+    "synonyms": [ "[sS]tream" ],
+    "languageCode": "th"
+  }, {
+    "value": "[oO]dyssey",
+    "synonyms": [ "[oO]dyssey" ],
+    "languageCode": "th"
+  }, {
+    "value": "[fF]reed",
+    "synonyms": [ "[fF]reed" ],
+    "languageCode": "th"
+  }, {
+    "value": "[bB]rio",
+    "synonyms": [ "[bB]rio" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\D\\D\\-\\D",
+    "synonyms": [ "\\D\\D\\-\\D" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS][tT][eE][pP][wW][gG][nN] [sS][pP][aA][dD][aA]",
+    "synonyms": [ "[sS][tT][eE][pP][wW][gG][nN] [sS][pP][aA][dD][aA]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[mM]obilio",
+    "synonyms": [ "[mM]obilio" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]onata",
+    "synonyms": [ "[sS]onata" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]anta [fF]e",
+    "synonyms": [ "[sS]anta [fF]e" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]oupe",
+    "synonyms": [ "[cC]oupe" ],
+    "languageCode": "th"
+  }, {
+    "value": "[tT]ucson",
+    "synonyms": [ "[tT]ucson" ],
+    "languageCode": "th"
+  }, {
+    "value": "[gG]rand [sS]tarex",
+    "synonyms": [ "[gG]rand [sS]tarex" ],
+    "languageCode": "th"
+  }, {
+    "value": "[eE]lantra",
+    "synonyms": [ "[eE]lantra" ],
+    "languageCode": "th"
+  }, {
+    "value": "[vV]eloster",
+    "synonyms": [ "[vV]eloster" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]reta",
+    "synonyms": [ "[cC]reta" ],
+    "languageCode": "th"
+  }, {
+    "value": "[dD]-[mM]ax",
+    "synonyms": [ "[dD]-[mM]ax" ],
+    "languageCode": "th"
+  }, {
+    "value": "[tT]rooper",
+    "synonyms": [ "[tT]rooper" ],
+    "languageCode": "th"
+  }, {
+    "value": "[mM][uU]-7",
+    "synonyms": [ "[mM][uU]-7" ],
+    "languageCode": "th"
+  }, {
+    "value": "[mM][uU]-[xX]",
+    "synonyms": [ "[mM][uU]-[xX]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]orento",
+    "synonyms": [ "[sS]orento" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]arnival",
+    "synonyms": [ "[cC]arnival" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]arens",
+    "synonyms": [ "[cC]arens" ],
+    "languageCode": "th"
+  }, {
+    "value": "[gG]rand [cC]arnival",
+    "synonyms": [ "[gG]rand [cC]arnival" ],
+    "languageCode": "th"
+  }, {
+    "value": "[pP]icanto",
+    "synonyms": [ "[pP]icanto" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]oul",
+    "synonyms": [ "[sS]oul" ],
+    "languageCode": "th"
+  }, {
+    "value": "[rR]io",
+    "synonyms": [ "[rR]io" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]erato [kK]oup",
+    "synonyms": [ "[cC]erato [kK]oup" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]tinger",
+    "synonyms": [ "[sS]tinger" ],
+    "languageCode": "th"
+  }, {
+    "value": "[dD]iscovery",
+    "synonyms": [ "[dD]iscovery" ],
+    "languageCode": "th"
+  }, {
+    "value": "[rR]ange [rR]over",
+    "synonyms": [ "[rR]ange [rR]over" ],
+    "languageCode": "th"
+  }, {
+    "value": "[fF]reelander",
+    "synonyms": [ "[fF]reelander" ],
+    "languageCode": "th"
+  }, {
+    "value": "[dD]iscovery 3",
+    "synonyms": [ "[dD]iscovery 3" ],
+    "languageCode": "th"
+  }, {
+    "value": "[fF]reelander 2",
+    "synonyms": [ "[fF]reelander 2" ],
+    "languageCode": "th"
+  }, {
+    "value": "[dD]efender",
+    "synonyms": [ "[dD]efender" ],
+    "languageCode": "th"
+  }, {
+    "value": "[dD]iscovery 4",
+    "synonyms": [ "[dD]iscovery 4" ],
+    "languageCode": "th"
+  }, {
+    "value": "[dD]iscovery Sport",
+    "synonyms": [ "[dD]iscovery Sport" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\D{2}\\d{3}[ht]",
+    "synonyms": [ "\\D{2}\\d{3}[ht]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[tT]ribute",
+    "synonyms": [ "[tT]ribute" ],
+    "languageCode": "th"
+  }, {
+    "value": "[bB][tT]-50",
+    "synonyms": [ "[bB][tT]-50" ],
+    "languageCode": "th"
+  }, {
+    "value": "[bB][tT]-50 [pP][rR][oO]",
+    "synonyms": [ "[bB][tT]-50 [pP][rR][oO]" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\D{1,3}-\\d{1}",
+    "synonyms": [ "\\D{1,3}-\\d{1}" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\D{1,3}-\\d{2}",
+    "synonyms": [ "\\D{1,3}-\\d{2}" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\D{1,3}\\d{3} [kK]ompressor",
+    "synonyms": [ "\\D{1,3}\\d{3} [kK]ompressor" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\D{1,3}\\d{3} [cC][dD][iI]",
+    "synonyms": [ "\\D{1,3}\\d{3} [cC][dD][iI]" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\D{1,3}\\d{3} [aA][mM][gG]",
+    "synonyms": [ "\\D{1,3}\\d{3} [aA][mM][gG]" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\D{1,3}\\d{3} [cC][dD][iI] [bB]lue[eE][fF][fF][iI][cC][iI][eE][nN][cC][yY]",
+    "synonyms": [ "\\D{1,3}\\d{3} [cC][dD][iI] [bB]lue[eE][fF][fF][iI][cC][iI][eE][nN][cC][yY]" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\D{1,3}\\d{3} [cC][gG][iI] [bB]lue[eE][fF][fF][iI][cC][iI][eE][nN][cC][yY]",
+    "synonyms": [ "\\D{1,3}\\d{3} [cC][gG][iI] [bB]lue[eE][fF][fF][iI][cC][iI][eE][nN][cC][yY]" ],
+    "languageCode": "th"
+  }, {
+    "value": "\\D{1,3}\\d{3} [bB]lue[eE][fF][fF][iI][cC][iI][eE][nN][cC][yY]",
+    "synonyms": [ "\\D{1,3}\\d{3} [bB]lue[eE][fF][fF][iI][cC][iI][eE][nN][cC][yY]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[gG][sS]",
+    "synonyms": [ "[gG][sS]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[zZ][sS]",
+    "synonyms": [ "[zZ][sS]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[eE]xtender",
+    "synonyms": [ "[eE]xtender" ],
+    "languageCode": "th"
+  }, {
+    "value": "[hH][sS]",
+    "synonyms": [ "[hH][sS]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[pP]ajero",
+    "synonyms": [ "[pP]ajero" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]trada [gG]-[wW]agon",
+    "synonyms": [ "[sS]trada [gG]-[wW]agon" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]trada",
+    "synonyms": [ "[sS]trada" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]pace [wW]agon",
+    "synonyms": [ "[sS]pace [wW]agon" ],
+    "languageCode": "th"
+  }, {
+    "value": "[lL]ancer",
+    "synonyms": [ "[lL]ancer" ],
+    "languageCode": "th"
+  }, {
+    "value": "[tT]riton",
+    "synonyms": [ "[tT]riton" ],
+    "languageCode": "th"
+  }, {
+    "value": "[pP]ajero [sS]port",
+    "synonyms": [ "[pP]ajero [sS]port" ],
+    "languageCode": "th"
+  }, {
+    "value": "[lL]ancer [eE][xX]",
+    "synonyms": [ "[lL]ancer [eE][xX]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[mM]irage",
+    "synonyms": [ "[mM]irage" ],
+    "languageCode": "th"
+  }, {
+    "value": "[aA]ttrage",
+    "synonyms": [ "[aA]ttrage" ],
+    "languageCode": "th"
+  }, {
+    "value": "[dD]elica [sS]pace [wW]agon",
+    "synonyms": [ "[dD]elica [sS]pace [wW]agon" ],
+    "languageCode": "th"
+  }, {
+    "value": "[xX]pander",
+    "synonyms": [ "[xX]pander" ],
+    "languageCode": "th"
+  }, {
+    "value": "[xX]pander [cC]ross",
+    "synonyms": [ "[xX]pander [cC]ross" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]efiro",
+    "synonyms": [ "[cC]efiro" ],
+    "languageCode": "th"
+  }, {
+    "value": "[fF]rontier",
+    "synonyms": [ "[fF]rontier" ],
+    "languageCode": "th"
+  }, {
+    "value": "[tT]eana",
+    "synonyms": [ "[tT]eana" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]unny",
+    "synonyms": [ "[sS]unny" ],
+    "languageCode": "th"
+  }, {
+    "value": "[xX]-[tT]rail",
+    "synonyms": [ "[xX]-[tT]rail" ],
+    "languageCode": "th"
+  }, {
+    "value": "[mM]urano",
+    "synonyms": [ "[mM]urano" ],
+    "languageCode": "th"
+  }, {
+    "value": "[tT]iida",
+    "synonyms": [ "[tT]iida" ],
+    "languageCode": "th"
+  }, {
+    "value": "[nN][vV]",
+    "synonyms": [ "[nN][vV]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[fF]rontier [nN]avara",
+    "synonyms": [ "[fF]rontier [nN]avara" ],
+    "languageCode": "th"
+  }, {
+    "value": "[mM]arch",
+    "synonyms": [ "[mM]arch" ],
+    "languageCode": "th"
+  }, {
+    "value": "[aA]lmera",
+    "synonyms": [ "[aA]lmera" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]ylphy",
+    "synonyms": [ "[sS]ylphy" ],
+    "languageCode": "th"
+  }, {
+    "value": "[pP]ulsar",
+    "synonyms": [ "[pP]ulsar" ],
+    "languageCode": "th"
+  }, {
+    "value": "[jJ]uke",
+    "synonyms": [ "[jJ]uke" ],
+    "languageCode": "th"
+  }, {
+    "value": "[lL]ivina",
+    "synonyms": [ "[lL]ivina" ],
+    "languageCode": "th"
+  }, {
+    "value": "[nN][pP] 300 [nN]avara",
+    "synonyms": [ "[nN][pP] 300 [nN]avara" ],
+    "languageCode": "th"
+  }, {
+    "value": "[nN]ote",
+    "synonyms": [ "[nN]ote" ],
+    "languageCode": "th"
+  }, {
+    "value": "[tT]erra",
+    "synonyms": [ "[tT]erra" ],
+    "languageCode": "th"
+  }, {
+    "value": "[kK]icks",
+    "synonyms": [ "[kK]icks" ],
+    "languageCode": "th"
+  }, {
+    "value": "[nN]avara",
+    "synonyms": [ "[nN]avara" ],
+    "languageCode": "th"
+  }, {
+    "value": "206",
+    "synonyms": [ "206" ],
+    "languageCode": "th"
+  }, {
+    "value": "307",
+    "synonyms": [ "307" ],
+    "languageCode": "th"
+  }, {
+    "value": "207",
+    "synonyms": [ "207" ],
+    "languageCode": "th"
+  }, {
+    "value": "[gG]en 2",
+    "synonyms": [ "[gG]en 2" ],
+    "languageCode": "th"
+  }, {
+    "value": "[nN]eo",
+    "synonyms": [ "[nN]eo" ],
+    "languageCode": "th"
+  }, {
+    "value": "[eE]xora",
+    "synonyms": [ "[eE]xora" ],
+    "languageCode": "th"
+  }, {
+    "value": "[pP]ersona",
+    "synonyms": [ "[pP]ersona" ],
+    "languageCode": "th"
+  }, {
+    "value": "[pP]reve",
+    "synonyms": [ "[pP]reve" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]uprima [sS]",
+    "synonyms": [ "[sS]uprima [sS]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]aga",
+    "synonyms": [ "[sS]aga" ],
+    "languageCode": "th"
+  }, {
+    "value": "[tT]oledo",
+    "synonyms": [ "[tT]oledo" ],
+    "languageCode": "th"
+  }, {
+    "value": "[rR]1",
+    "synonyms": [ "[rR]1" ],
+    "languageCode": "th"
+  }, {
+    "value": "[rR]2",
+    "synonyms": [ "[rR]2" ],
+    "languageCode": "th"
+  }, {
+    "value": "[bB]9 [tT]ribeca",
+    "synonyms": [ "[bB]9 [tT]ribeca" ],
+    "languageCode": "th"
+  }, {
+    "value": "[Ll]evorg",
+    "synonyms": [ "[Ll]evorg" ],
+    "languageCode": "th"
+  }, {
+    "value": "[vV]itara",
+    "synonyms": [ "[vV]itara" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]aribian",
+    "synonyms": [ "[cC]aribian" ],
+    "languageCode": "th"
+  }, {
+    "value": "[aA][pP][vV]",
+    "synonyms": [ "[aA][pP][vV]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]wift",
+    "synonyms": [ "[sS]wift" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS][xX]4",
+    "synonyms": [ "[sS][xX]4" ],
+    "languageCode": "th"
+  }, {
+    "value": "[eE]rtiga",
+    "synonyms": [ "[eE]rtiga" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]elerio",
+    "synonyms": [ "[cC]elerio" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]iaz",
+    "synonyms": [ "[cC]iaz" ],
+    "languageCode": "th"
+  }, {
+    "value": "[jJ]imny",
+    "synonyms": [ "[jJ]imny" ],
+    "languageCode": "th"
+  }, {
+    "value": "[xX][lL]7",
+    "synonyms": [ "[xX][lL]7" ],
+    "languageCode": "th"
+  }, {
+    "value": "[xX]enon",
+    "synonyms": [ "[xX]enon" ],
+    "languageCode": "th"
+  }, {
+    "value": "[tT]ransformer",
+    "synonyms": [ "[tT]ransformer" ],
+    "languageCode": "th"
+  }, {
+    "value": "[tT]ransformer [iI][iI]",
+    "synonyms": [ "[tT]ransformer [iI][iI]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]amry",
+    "synonyms": [ "[cC]amry" ],
+    "languageCode": "th"
+  }, {
+    "value": "[wW]ish",
+    "synonyms": [ "[wW]ish" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]orolla [aA]ltis",
+    "synonyms": [ "[cC]orolla [aA]ltis" ],
+    "languageCode": "th"
+  }, {
+    "value": "[lL]andcruiser [pP]rado",
+    "synonyms": [ "[lL]andcruiser [pP]rado" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]port [cC]ruiser",
+    "synonyms": [ "[sS]port [cC]ruiser" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]port [rR]ider",
+    "synonyms": [ "[sS]port [rR]ider" ],
+    "languageCode": "th"
+  }, {
+    "value": "[hH]ilux [tT]iger",
+    "synonyms": [ "[hH]ilux [tT]iger" ],
+    "languageCode": "th"
+  }, {
+    "value": "[vV]ios",
+    "synonyms": [ "[vV]ios" ],
+    "languageCode": "th"
+  }, {
+    "value": "[aA]vanza",
+    "synonyms": [ "[aA]vanza" ],
+    "languageCode": "th"
+  }, {
+    "value": "[hH]ilux [vV]igo",
+    "synonyms": [ "[hH]ilux [vV]igo" ],
+    "languageCode": "th"
+  }, {
+    "value": "[iI]nnova",
+    "synonyms": [ "[iI]nnova" ],
+    "languageCode": "th"
+  }, {
+    "value": "[fF]ortuner",
+    "synonyms": [ "[fF]ortuner" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]rown",
+    "synonyms": [ "[cC]rown" ],
+    "languageCode": "th"
+  }, {
+    "value": "[yY]aris",
+    "synonyms": [ "[yY]aris" ],
+    "languageCode": "th"
+  }, {
+    "value": "[aA]lphard",
+    "synonyms": [ "[aA]lphard" ],
+    "languageCode": "th"
+  }, {
+    "value": "[pP]rius",
+    "synonyms": [ "[pP]rius" ],
+    "languageCode": "th"
+  }, {
+    "value": "[vV]ellfire",
+    "synonyms": [ "[vV]ellfire" ],
+    "languageCode": "th"
+  }, {
+    "value": "[hH]ilux [rR]evo",
+    "synonyms": [ "[hH]ilux [rR]evo" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]ienta",
+    "synonyms": [ "[sS]ienta" ],
+    "languageCode": "th"
+  }, {
+    "value": "[yY]aris [aA]tiv",
+    "synonyms": [ "[yY]aris [aA]tiv" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC]-[hH][rR]",
+    "synonyms": [ "[cC]-[hH][rR]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[cC][oO][rR][oO][lL][lL][aA] [cC][rR][oO][sS][sS]",
+    "synonyms": [ "[cC][oO][rR][oO][lL][lL][aA] [cC][rR][oO][sS][sS]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[vV]eloz",
+    "synonyms": [ "[vV]eloz" ],
+    "languageCode": "th"
+  }, {
+    "value": "[lL]aser",
+    "synonyms": [ "[lL]aser" ],
+    "languageCode": "th"
+  }, {
+    "value": "[fF]orza",
+    "synonyms": [ "[fF]orza" ],
+    "languageCode": "th"
+  }, {
+    "value": "[sS]avvy",
+    "synonyms": [ "[sS]avvy" ],
+    "languageCode": "th"
+  }, {
+    "value": "[hH[sS] [pP][hH][eE][vV]",
+    "synonyms": [ "[hH[sS] [pP][hH][eE][vV]" ],
+    "languageCode": "th"
+  }, {
+    "value": "[gG]ood [cC]at",
+    "synonyms": [ "[gG]ood [cC]at" ],
+    "languageCode": "th"
+  }, {
+    "value": "โคโลราโด้",
+    "synonyms": [ "โคโลราโด้" ],
+    "languageCode": "th"
+  }, {
+    "value": "แคปติว่า",
+    "synonyms": [ "แคปติว่า" ],
+    "languageCode": "th"
+  }, {
+    "value": "โซนิค",
+    "synonyms": [ "โซนิค" ],
+    "languageCode": "th"
+  }, {
+    "value": "เอ็กซ์เปอร์เรอร์",
+    "synonyms": [ "เอ็กซ์เปอร์เรอร์" ],
+    "languageCode": "th"
+  }, {
+    "value": "เอฟเวอร์เรซ",
+    "synonyms": [ "เอฟเวอร์เรซ" ],
+    "languageCode": "th"
+  }, {
+    "value": "เรนเจอร์",
+    "synonyms": [ "เรนเจอร์" ],
+    "languageCode": "th"
+  }, {
+    "value": "เอสเคป",
+    "synonyms": [ "เอสเคป" ],
+    "languageCode": "th"
+  }, {
+    "value": "โฟกัส",
+    "synonyms": [ "โฟกัส" ],
+    "languageCode": "th"
+  }, {
+    "value": "เฟียสต้า",
+    "synonyms": [ "เฟียสต้า" ],
+    "languageCode": "th"
+  }, {
+    "value": "แอ็คคอร์ด",
+    "synonyms": [ "แอ็คคอร์ด" ],
+    "languageCode": "th"
+  }, {
+    "value": "แจ๊ส",
+    "synonyms": [ "แจ๊ส" ],
+    "languageCode": "th"
+  }, {
+    "value": "ซีวิค",
+    "synonyms": [ "ซีวิค" ],
+    "languageCode": "th"
+  }, {
+    "value": "ซิตี้",
+    "synonyms": [ "ซิตี้" ],
+    "languageCode": "th"
+  }, {
+    "value": "สตรีม",
+    "synonyms": [ "สตรีม" ],
+    "languageCode": "th"
+  }, {
+    "value": "มาร์ช",
+    "synonyms": [ "มาร์ช" ],
+    "languageCode": "th"
+  }, {
+    "value": "อัลเมร่า",
+    "synonyms": [ "อัลเมร่า" ],
+    "languageCode": "th"
+  }, {
+    "value": "นาวาร่า",
+    "synonyms": [ "นาวาร่า" ],
+    "languageCode": "th"
+  }, {
+    "value": "สวิฟ",
+    "synonyms": [ "สวิฟ" ],
+    "languageCode": "th"
+  }, {
+    "value": "วีโก้",
+    "synonyms": [ "วีโก้" ],
+    "languageCode": "th"
+  }, {
+    "value": "แคมรี่",
+    "synonyms": [ "แคมรี่" ],
+    "languageCode": "th"
+  }, {
+    "value": "yaris",
+    "synonyms": [ "yaris" ],
+    "languageCode": "th"
+  } ]
+}

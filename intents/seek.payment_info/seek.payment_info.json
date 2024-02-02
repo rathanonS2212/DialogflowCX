@@ -1,0 +1,15 @@
+{
+  "name": "8611216e-7679-42e9-b540-e10a76f590cc",
+  "displayName": "seek.payment_info",
+  "parameters": [ {
+    "id": "vehicle-type",
+    "entityType": "@vehicle-type"
+  }, {
+    "id": "vehicle-license-number",
+    "entityType": "@vehicle-license-number"
+  } ],
+  "priority": 500000,
+  "description": "Inquire for payment information such as payment channels and procedures.",
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 55
+}

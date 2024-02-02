@@ -1,0 +1,540 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันรถ toyota"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ค่าเบี้ยประกันมอเตอร์ไซต์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีค่าเบี้ยประกันมอเตอร์ไซค์ไหมคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการซื้อประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการซื้อประกันรถ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ประกันภัยรถ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีประกันรถยนต์แนะนำไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันรถ honda"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีข้อมูลเกี่ยวกับประกันรถยนต์มั้ยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันชั้น 3+"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันชั้น 3 บวก"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันชั้น 3"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันชั้น 2+"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันชั้น 2 บวก"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันชั้น 2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันชั้น 1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอสอบถามเรื่องประกันรถจักรยานยนต์ขนาด 150 ซีซี ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากรู้รายละเอียดของประกันรถจักรยานยนต์ 150cc ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ประกันรถจักรยานยนต์ไม่เกิน150 ซีซี มีอยู่ไหม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลเรื่องประกันรถสกูตเตอร์ 150 ซีซี หน่อยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีประเภทของประกันรถจักรยานยนต์ 150cc ไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากทราบรายละเอียดสำหรับประกันรถจักรยานยนต์ 150 ซีซี"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอรายละเอียดเกี่ยวกับประกันรถ 150 ซีซี หน่อยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ค้นหาประกันรถขนาด 150cc ให้ฉัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ประกันรถมอเตอร์ไซค์ 150cc มีขายรึเปล่า"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีประกันรถจักรยานยนต์ไม่เกิน 150 ซีซี ไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันมอเตอร์ไซค์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สนใจประกันมอไซค์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากทราบข้อมูลประกันรถยนต์ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการสอบถามข้อมูลเกี่ยวกับประกันภัยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สนใจข้อมูลเกี่ยวกับสินค้าประกันภัยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอส่วนลด"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการคำแนะนำเกี่ยวกับราคาประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "คุณมีข้อมูลเกี่ยวกับสินค้าประกันไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันรถไฟฟ้า"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สนใจประกันรถไฟฟ้า"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สนใจประกันรถยนต์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สนใจสอบถามการประกันภัยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอรายละเอียดเกี่ยวกับประกันภัย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลประกันครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามรายละเอียดประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลเกี่ยวกับความคุ้มครองประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามเกี่ยวกับราคาประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอรายละเอียดเกี่ยวกับสินค้าประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลประกันรถ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลเพิ่มเติมเกี่ยวกับประกันภัย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลสินค้าประกันภัย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอรายละเอียดสินค้าประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลเกี่ยวกับประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลประกันรถ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ข้อมูลผลิตภัณฑ์ประกันภัยเพิ่มเติม"
+    } ],
+    "repeatCount": 2,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามรายละเอียดผลิตภัณฑ์ประกันภัย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอทราบข้อมูลสินค้าประกันต่างๆในปัจจุบันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามรายละเอียดของสินค้าประกันด้วยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สนใจประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีประกัน"
+    }, {
+      "text": "รถจักยานยนต์",
+      "parameterId": "vehicle-type"
+    }, {
+      "text": "ไม่เกิน"
+    }, {
+      "text": "150cc",
+      "parameterId": "unit-currency1"
+    }, {
+      "text": "ใหมคับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มี"
+    }, {
+      "text": "ประกันที่ผ่อน"
+    }, {
+      "text": "ได้มั้ยคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สวัสดีครับ อยากสอบถามเกี่ยวกับประกัน"
+    }, {
+      "text": "รถยนต์",
+      "parameterId": "vehicle-type"
+    }, {
+      "text": "ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สวัสดีค่ะ ต้องการสอบถามเกี่ยวกับประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีประกันสำหรับ"
+    }, {
+      "text": "รถยนต์ไฟฟ้า",
+      "parameterId": "vehicle-type"
+    }, {
+      "text": "ไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีประกันที่ผ่อนได้มั้ยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีโปรโมชั่นอะไรบ้างคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอราคา "
+    }, {
+      "text": "วิริยะ 2+",
+      "parameterId": "insurance-level"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากได้ประกัน"
+    }, {
+      "text": "บิ๊กไบค์",
+      "parameterId": "vehicle-type"
+    }, {
+      "text": " "
+    }, {
+      "text": "3",
+      "parameterId": "insurance-level"
+    }, {
+      "text": " ทุน "
+    }, {
+      "text": "100,000",
+      "parameterId": "unit-currency"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สวัสดีคับ มี"
+    }, {
+      "text": "ประกันชั้น 1",
+      "parameterId": "insurance-level"
+    }, {
+      "text": " "
+    }, {
+      "text": "บิ๊กไบค์",
+      "parameterId": "vehicle-type"
+    }, {
+      "text": "ไม๊คับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มี"
+    }, {
+      "text": "ประกันชั้น 1",
+      "parameterId": "insurance-level"
+    }, {
+      "text": " "
+    }, {
+      "text": "บิ๊กไบค์",
+      "parameterId": "vehicle-type"
+    }, {
+      "text": "ไม๊คบ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่มีรุ่นยี่ห้อในนี้ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ฟอร์ด",
+      "parameterId": "vehicle-brand"
+    }, {
+      "text": "เฟียสต้า",
+      "parameterId": "vehicle-model"
+    }, {
+      "text": " ปี"
+    }, {
+      "text": "2012",
+      "parameterId": "vehicle-model-year"
+    }, {
+      "text": "ทำ"
+    }, {
+      "text": "ประกันอะไหล่",
+      "parameterId": "insurance-level"
+    }, {
+      "text": "ได้เปล่าครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เชฟโรเลต",
+      "parameterId": "vehicle-brand"
+    }, {
+      "text": "ครูซ",
+      "parameterId": "vehicle-model"
+    }, {
+      "text": " ปี "
+    }, {
+      "text": "2012",
+      "parameterId": "vehicle-model-year"
+    }, {
+      "text": " ยังรับ"
+    }, {
+      "text": "ประกันชั้น1",
+      "parameterId": "insurance-level"
+    }, {
+      "text": " ได้มั้ยคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการสอบถามข้อมูลประกันครับ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากสอบถามเกี่ยวกับโปรโมชั่นครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากสอบถามโปรโมชั่นค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการสอบถามข้อมูลเกี่ยวกับประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  } ]
+}

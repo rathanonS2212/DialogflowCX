@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "ประกันชั้น 1",
+    "synonyms": [ "1", "ชั้น 1", "ประกันชั้น 1" ],
+    "languageCode": "th"
+  }, {
+    "value": "ประกันชั้น 2",
+    "synonyms": [ "2", "ชั้น 2", "ประกันชั้น 2" ],
+    "languageCode": "th"
+  }, {
+    "value": "ประกันชั้น 3",
+    "synonyms": [ "3", "ชั้น 3", "ประกันชั้น 3" ],
+    "languageCode": "th"
+  }, {
+    "value": "ประกันอะไหล่",
+    "synonyms": [ "ประกันอะไหล่" ],
+    "languageCode": "th"
+  } ]
+}

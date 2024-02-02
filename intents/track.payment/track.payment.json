@@ -1,0 +1,18 @@
+{
+  "name": "19e6c5c6-3c61-44a1-8cfb-32762919777c",
+  "displayName": "track.payment",
+  "parameters": [ {
+    "id": "insurance-type",
+    "entityType": "@insurance-type"
+  }, {
+    "id": "date",
+    "entityType": "@sys.date"
+  }, {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "description": "Inquire or state your intention to learn about insurance product invoices, payment methods, receipts, policy information, or payment links.",
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 54
+}

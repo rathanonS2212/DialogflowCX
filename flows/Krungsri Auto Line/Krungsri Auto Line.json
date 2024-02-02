@@ -1,0 +1,46 @@
+{
+  "name": "b7787fe3-01a7-40ee-8f16-071553a8bd05",
+  "displayName": "Krungsri Auto Line",
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Recommend Line Account",
+    "name": "064c9dd0-4bb0-42bd-9d10-36bdecb3a937"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ฉันไม่เข้าใจค่ะ พูดใหม่ได้ไหมคะ", "อะไรนะคะ พูดใหม่ได้ไหมคะ", "ขอโทษค่ะ ลองพูดอีกครั้งได้ไหมคะ", "ขอโทษค่ะ พูดอีกครั้งได้ไหมคะ", "พูดอีกทีได้ไหมคะ", "ขอโทษค่ะ ฉันไม่เข้าใจค่ะ", "ขอโทษค่ะ อะไรนะคะ", "อีกทีได้ไหมคะ", "ว่ายังไงนะคะ", "ช่วยพูดอีกทีได้ไหมคะ", "ฉันไม่เข้าใจค่ะ", "ฉันฟังไม่ทันค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "99e1b97f-4c78-4577-9ca1-6705fafc5abf"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ฉันไม่เข้าใจค่ะ พูดใหม่ได้ไหมคะ", "อะไรนะคะ พูดใหม่ได้ไหมคะ", "ขอโทษค่ะ ลองพูดอีกครั้งได้ไหมคะ", "ขอโทษค่ะ พูดอีกครั้งได้ไหมคะ", "พูดอีกทีได้ไหมคะ", "ขอโทษค่ะ ฉันไม่เข้าใจค่ะ", "ขอโทษค่ะ อะไรนะคะ", "อีกทีได้ไหมคะ", "ว่ายังไงนะคะ", "ช่วยพูดอีกทีได้ไหมคะ", "ฉันไม่เข้าใจค่ะ", "ฉันฟังไม่ทันค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "d780324e-fa42-420a-8842-3303156bdc9a"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

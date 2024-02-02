@@ -1,0 +1,44 @@
+{
+  "name": "2c694957-8055-4341-a6eb-1ae440581fe4",
+  "displayName": "Intent Classify",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "Dialogue act prediction",
+    "tag": "1"
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Validate Intent",
+    "name": "32a3afce-7655-4d42-8e3b-8f0a6be90690"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "End Session",
+    "event": "webhook.error.timeout",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "เนื่องจากขณะนี้มีผู้ใช้งานจำนวนมาก กรุณารอสักครู่ ก่อนลองใหม่อีกครั้งค่ะ ขออภัยในความไม่สะดวก" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "8accf622-862b-47c5-b353-648a4f55860c"
+  }, {
+    "targetPage": "End Session",
+    "event": "webhook.error.unavailable",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "เนื่องจากขณะนี้มีผู้ใช้งานจำนวนมาก กรุณารอสักครู่ ก่อนลองใหม่อีกครั้งค่ะ ขออภัยในความไม่สะดวก" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "e965940d-f1e3-4c28-ae56-a2b640a41900"
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "73c6b3bf-9ee4-4736-a560-564c76b01ff3",
+  "displayName": "Suggest Website",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "กรุณาเช็คที่หน้าเว็บไซต์นี้ค่ะ \nhttps://www.krungsriautobroker.com/ProductCategory" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "933f5976-8d31-4d17-a0c8-26290ae557e8"
+  } ]
+}

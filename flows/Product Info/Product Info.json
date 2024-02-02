@@ -1,0 +1,45 @@
+{
+  "name": "a500c8e2-9e07-4a67-9a03-89129d284293",
+  "displayName": "Product Info",
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Flex ขอข้อมูลรุ่นรถ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "6bb92a5f-4903-429d-845b-662d3ad1ac38"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ฉันไม่เข้าใจค่ะ พูดใหม่ได้ไหมคะ", "อะไรนะคะ พูดใหม่ได้ไหมคะ", "ขอโทษค่ะ ลองพูดอีกครั้งได้ไหมคะ", "ขอโทษค่ะ พูดอีกครั้งได้ไหมคะ", "พูดอีกทีได้ไหมคะ", "ขอโทษค่ะ ฉันไม่เข้าใจค่ะ", "ขอโทษค่ะ อะไรนะคะ", "อีกทีได้ไหมคะ", "ว่ายังไงนะคะ", "ช่วยพูดอีกทีได้ไหมคะ", "ฉันไม่เข้าใจค่ะ", "ฉันฟังไม่ทันค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "7d24677d-7a01-4def-be29-10f342fd3bc3"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ฉันไม่เข้าใจค่ะ พูดใหม่ได้ไหมคะ", "อะไรนะคะ พูดใหม่ได้ไหมคะ", "ขอโทษค่ะ ลองพูดอีกครั้งได้ไหมคะ", "ขอโทษค่ะ พูดอีกครั้งได้ไหมคะ", "พูดอีกทีได้ไหมคะ", "ขอโทษค่ะ ฉันไม่เข้าใจค่ะ", "ขอโทษค่ะ อะไรนะคะ", "อีกทีได้ไหมคะ", "ว่ายังไงนะคะ", "ช่วยพูดอีกทีได้ไหมคะ", "ฉันไม่เข้าใจค่ะ", "ฉันฟังไม่ทันค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "723bcf1f-6297-4b77-9dde-05ea941ddfbe"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "8201361c-1e2d-4df6-8c98-bf6424962ae6",
+  "displayName": "Goodbye",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "ขออภัยในความไม่สะดวก น้องคานะขอขอบคุณที่เข้ามาใช้บริการค่ะ" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "false",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "5b70c26f-7ab8-429e-b8f2-b4e75ed0df88"
+  } ]
+}

@@ -1,0 +1,183 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "ผิด"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่มีทาง"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ผ่าน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่เข้าใจ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ยอมรับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ตกลง"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ใช่จ้า"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่สนับสนุน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่จริง"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่เสมอ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่คือ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่เช่นนั้น"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่เป็นอย่างงั้น"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่สสามารถยอมรับได้"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่สอดคล้องกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ถูก"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่เห็นด้วย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "that's incorrect"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "incorrect"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ถูกต้องค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ถูกครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ต้องการค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "no"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่สนใจครับ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่สนใจค่ะ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ใช่ครับ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ใช่ค่ะ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ครับ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ค่ะ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  } ]
+}

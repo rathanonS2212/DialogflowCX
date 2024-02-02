@@ -1,0 +1,23 @@
+{
+  "name": "fda69644-f556-4038-a838-0d651551e386",
+  "displayName": "Greeting",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "สวัสดีค่ะ น้องคานะยินดีให้บริการค่ะ" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "ddda7c8c-722b-4302-9fcb-6047ceafd116"
+  } ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "dac05c0b-06dc-4f05-8b51-7a69077ae5b7",
+  "displayName": "Collect Question",
+  "form": {
+    "parameters": [ {
+      "displayName": "question",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "พิมพ์ข้อความที่ต้องการสอบถามได้เลยค่ะ" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "FAQ Flow",
+    "name": "4acd99cb-a0f2-491d-a767-fe4edd83778e"
+  } ]
+}

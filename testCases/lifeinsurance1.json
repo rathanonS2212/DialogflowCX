@@ -1,0 +1,84 @@
+{
+  "name": "9ef8f42a-3393-442d-a0be-2b90e2afe08e",
+  "displayName": "lifeinsurance1",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ขอดูเบี้ยประกันชีวิต"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ สอบถามข้อมูลประกันชีวิต" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yep"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ฉันฟังไม่ทันค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่จ้ะ"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ดูรายละเอียดประกันประกันชีวิต คลิก https://www.krungsriautobroker.com/product-category/lifeinsurance" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692171341,
+    "nanos": 690691000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "d3050e57-3c97-4769-b88c-85244d2a9748",
+  "displayName": "Failure",
+  "form": {
+    "parameters": [ {
+      "displayName": "confirm-refill-info",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "ลูกค้าต้องการกรอกข้อมูลอีกรอบมั้ยคะ" ]
+      },
+      "languageCode": "th"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "Intent",
+      "value": null
+    }, {
+      "parameter": "Intent_score",
+      "value": null
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "Intent classification",
+      "tag": "1"
+    },
+    "targetPage": "Failure Intent",
+    "name": "44e7cc80-59a7-44c0-b207-dd580396bd9a"
+  } ]
+}

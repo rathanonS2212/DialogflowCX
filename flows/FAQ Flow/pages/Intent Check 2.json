@@ -1,0 +1,24 @@
+{
+  "name": "8da2d3f9-5ca1-4519-a3e0-6c060f365d95",
+  "displayName": "Intent Check 2",
+  "form": {
+    "parameters": [ {
+      "displayName": "text4",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Validate Intent Check 2",
+    "name": "fe5bd600-0c20-42c5-9454-8c77b7846318"
+  } ]
+}

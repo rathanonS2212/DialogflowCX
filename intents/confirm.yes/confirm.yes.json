@@ -1,0 +1,14 @@
+{
+  "name": "b701e451-d050-4878-a297-031d9c438540",
+  "displayName": "confirm.yes",
+  "parameters": [ {
+    "id": "currency-name",
+    "entityType": "@sys.currency-name"
+  }, {
+    "id": "location",
+    "entityType": "@sys.location"
+  } ],
+  "priority": 500000,
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 29
+}

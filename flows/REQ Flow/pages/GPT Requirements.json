@@ -1,0 +1,44 @@
+{
+  "name": "64bc48ec-2b6a-4acf-a718-c356bc9c792d",
+  "displayName": "GPT Requirements",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "get-requirements",
+    "tag": "1"
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Check Requirement",
+    "name": "796b5e11-2083-4f2c-be85-baed7242414f"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "End Session",
+    "event": "webhook.error.timeout",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "เนื่องจากขณะนี้มีผู้ใช้งานจำนวนมาก กรุณารอสักครู่ ก่อนลองใหม่อีกครั้งค่ะ ขออภัยในความไม่สะดวก" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "374b7df5-7cdf-4405-9f00-2cc6c96903b6"
+  }, {
+    "targetPage": "End Session",
+    "event": "webhook.error.unavailable",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "เนื่องจากขณะนี้มีผู้ใช้งานจำนวนมาก กรุณารอสักครู่ ก่อนลองใหม่อีกครั้งค่ะ ขออภัยในความไม่สะดวก" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "8d5e7f2b-6e62-4161-9c89-994f8c1313e3"
+  } ]
+}

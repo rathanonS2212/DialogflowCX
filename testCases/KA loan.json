@@ -1,0 +1,87 @@
+{
+  "name": "6d9eeeb1-c41f-4438-9e01-99621c44f385",
+  "displayName": "KA loan",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "สวัสดีค่ะ"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "สวัสดีค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "อยากกู้สินเชื่อ"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ สอบถามข้อมูลสินเชื่อรถยนต์" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "สามารถติดต่อผ่านช่องทางกรุงศรี ออโต้ (https://page.line.me/089llnyg?openQrModal=true)" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1691747158,
+    "nanos": 847494000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

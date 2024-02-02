@@ -1,0 +1,33 @@
+{
+  "name": "46fd290b-586e-46c1-b763-ac382fd8ba41",
+  "displayName": "More QA",
+  "form": {
+    "parameters": [ {
+      "displayName": "text2",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "คำถามของคุณใกล้เคียงกับ\n$session.params.question-other" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "Intent classification",
+      "tag": "1"
+    },
+    "targetPage": "Validate More QA Intent",
+    "name": "200afc96-408c-49af-87df-ea0a0f0ea20c"
+  } ]
+}

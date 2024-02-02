@@ -1,0 +1,38 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Intent Classification",
+    "name": "217274c1-3b5a-4fa6-8041-15c8e74c37b7"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "Intent Classification",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "9cda8776-0330-41a1-a94c-cc4a591c7901"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ฉันไม่เข้าใจค่ะ พูดใหม่ได้ไหมคะ", "อะไรนะคะ พูดใหม่ได้ไหมคะ", "ขอโทษค่ะ ลองพูดอีกครั้งได้ไหมคะ", "ขอโทษค่ะ พูดอีกครั้งได้ไหมคะ", "พูดอีกทีได้ไหมคะ", "ขอโทษค่ะ ฉันไม่เข้าใจค่ะ", "ขอโทษค่ะ อะไรนะคะ", "อีกทีได้ไหมคะ", "ว่ายังไงนะคะ", "ช่วยพูดอีกทีได้ไหมคะ", "ฉันไม่เข้าใจค่ะ", "ฉันฟังไม่ทันค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "3a778f1c-3326-4d6a-9148-81186c5a02f7"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

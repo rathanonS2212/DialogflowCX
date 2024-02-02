@@ -1,0 +1,23 @@
+{
+  "name": "1be46d26-4043-47a1-9e3a-159ddcb7cf5a",
+  "displayName": "Response Other QA",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$session.params.answer-other" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Intent Check",
+    "name": "645ee314-ef8a-4d7f-a6d3-b218c6fd0e19"
+  } ]
+}

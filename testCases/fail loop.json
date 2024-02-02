@@ -1,0 +1,283 @@
+{
+  "name": "0b95010c-ac40-472e-ac93-b2197399d1cd",
+  "displayName": "fail loop",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ขอเลือนชำระการผ่อนค่างวด"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ ขอรับวิธีการชำระเงิน" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "More QA",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "คำถามของคุณใกล้เคียงกับ\n1. ชำระเบี้ยประกันยังไง?\n2. ขอข้อมูลเกี่ยวกับการชำระเงิน\n3. ขอรายละเอียดสินเชื่อรถยนต์" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ดูเหมือนว่าเราไม่สามารถตอบคำถามนี้ได้" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Reset State",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "สอบถามข้อมูลได้เพิ่มเติมได้เลยค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ผ่อนค่างวดไม่ไหว"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ ชำระเบี้ยประกันยังไง?" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "More QA",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "คำถามของคุณใกล้เคียงกับ\n1. ขอคำปรึกษาเรื่องสินเชื่อรถยนต์\n2. สนใจสินเชื่อรถยนต์ ขอรายละเอียด\n3. สอบถามเรื่องสินเชื่อรถยนต์" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ดูเหมือนว่าเราไม่สามารถตอบคำถามนี้ได้" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Reset State",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "สอบถามข้อมูลได้เพิ่มเติมได้เลยค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ติดต่อเจ้าหน้าที่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ สอบถามข้อมูลประกันการเดินทางในประเทศ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "More QA",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "คำถามของคุณใกล้เคียงกับ\n1. สอบถามข้อมูลประกันอุบัติเหตุส่วนบุคคล\n2. สอบถามรายละเอียดประกันอุบัติเหตุส่วนบุคคล\n3. สอบถามเรื่องประกันคุ้มครองบุคคลเมื่อเกิดอุบัติเหตุ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ดูเหมือนว่าเราไม่สามารถตอบคำถามนี้ได้" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Contact Agent",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ต้องการติดต่อเจ้าหน้าที่ไหมคะ?" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1695115105,
+    "nanos": 309254000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "8d20aa4b-a263-4cc1-a1cd-d148f213f08a",
+  "displayName": "Contact Agent",
+  "form": {
+    "parameters": [ {
+      "displayName": "text4",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "ต้องการติดต่อเจ้าหน้าที่ไหมคะ?" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "Intent classification",
+      "tag": "1"
+    },
+    "targetPage": "Validate Contact Agent Intent",
+    "name": "2c3ad75d-152b-4b5b-9a58-8cbf872ef65b"
+  } ]
+}

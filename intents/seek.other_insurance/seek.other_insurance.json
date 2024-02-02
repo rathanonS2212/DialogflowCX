@@ -1,0 +1,12 @@
+{
+  "name": "e1f42765-6c1b-413e-83e7-86d2af14f305",
+  "displayName": "seek.other_insurance",
+  "parameters": [ {
+    "id": "other-insurance-type",
+    "entityType": "@other-insurance-type"
+  } ],
+  "priority": 500000,
+  "description": "State or inquire about traveling insurance products, life insurance products, and medical insurance products.",
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 60
+}

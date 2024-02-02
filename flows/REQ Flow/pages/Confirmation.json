@@ -1,0 +1,38 @@
+{
+  "name": "ab21fb81-91a8-4338-9217-357dbc966aba",
+  "displayName": "Confirmation",
+  "form": {
+    "parameters": [ {
+      "displayName": "text",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "รบกวนยืนยันข้อมูลด้วยค่ะ" ]
+      },
+      "languageCode": "th"
+    }, {
+      "text": {
+        "text": [ "ชื่อ-นามสกุล: $session.params.fullName\nเบอร์โทรที่ติดต่อได้: $session.params.phoneNumber\nเลขทะเบียนรถ: $session.params.vehicleLicense\nเคยซื้อประกันกับทางกรุงศรีออโต้หรือไม่: $session.params.isOldCustomer\nชื่อเจ้าหน้าที่ที่เคยติดต่อ(หากทราบ) : $session.params.agentName" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "Intent classification",
+      "tag": "1"
+    },
+    "targetPage": "Validate Intent",
+    "name": "63d02871-7498-4285-b630-4b2d5ed5245e"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "7832569f-0aae-4f30-aab2-a1fe07299cb5",
+  "displayName": "Dialogue act prediction_1",
+  "genericWebService": {
+    "uri": "https://a147-110-78-228-115.ngrok-free.app/v1/alethia-tools/dialogue-act-prediction/dialogflow"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

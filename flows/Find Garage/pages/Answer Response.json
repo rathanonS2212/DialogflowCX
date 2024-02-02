@@ -1,0 +1,38 @@
+{
+  "name": "5e1daf6c-f146-4fa5-9cb9-a527c21f7882",
+  "displayName": "Answer Response",
+  "form": {
+    "parameters": [ {
+      "displayName": "text1",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$session.params.garage-name" ]
+      },
+      "languageCode": "th"
+    }, {
+      "text": {
+        "text": [ "ไม่ทราบว่าใช่ประกันภัยที่คุณลูกค้าทำไว้หรือไม่คะ?" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "Intent classification",
+      "tag": "1"
+    },
+    "targetPage": "Answer Confirmation Intent",
+    "name": "7a8095f5-0d36-4a42-a388-c951791128a2"
+  } ]
+}

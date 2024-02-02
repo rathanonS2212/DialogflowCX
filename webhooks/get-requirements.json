@@ -1,0 +1,10 @@
+{
+  "name": "c4e5a67a-7a6c-4d5e-937f-ff1d85b5cb63",
+  "displayName": "get-requirements",
+  "genericWebService": {
+    "uri": "https://ml-dev-onprem.appman.co.th/v1/alethia-tools/get-requirements/dialogflow"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

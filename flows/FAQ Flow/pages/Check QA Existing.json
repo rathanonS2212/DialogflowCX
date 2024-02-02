@@ -1,0 +1,27 @@
+{
+  "name": "826365b8-ba7b-4945-9819-3d14548b1f01",
+  "displayName": "Check QA Existing",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.question-other != \"\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "More QA",
+    "name": "0bc1d59e-dd68-41c2-8bae-1337cef462fc"
+  }, {
+    "condition": "$session.params.question-other = \"\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ดูเหมือนว่าเราไม่สามารถตอบคำถามนี้ได้" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "targetPage": "Intent Check",
+    "name": "20b6ffc5-05e8-4a32-a080-d90c608a3c8c"
+  } ]
+}

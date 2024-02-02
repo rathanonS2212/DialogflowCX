@@ -1,0 +1,38 @@
+{
+  "name": "80c6028c-5a35-4eb2-bacd-1d354d366a5e",
+  "displayName": "Confirmation",
+  "form": {
+    "parameters": [ {
+      "displayName": "confirm-info",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "รบกวนยืนยันข้อมูลด้วยค่ะ" ]
+      },
+      "languageCode": "th"
+    }, {
+      "text": {
+        "text": [ "ชื่อ-นามสกุล: $session.params.fullName\nเบอร์โทรที่ติดต่อได้: $session.params.phoneNumber\nเลขทะเบียนรถ: $session.params.vehicleLicense" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "Intent classification",
+      "tag": "1"
+    },
+    "targetPage": "Confirmation Intent",
+    "name": "a9430e7c-dc24-4533-ae33-f127f7b8e4cd"
+  } ]
+}

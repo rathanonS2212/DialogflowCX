@@ -1,0 +1,135 @@
+{
+  "name": "35c691a8-b381-4333-bc7b-d295d3d9e8fd",
+  "tags": [ "#fail" ],
+  "displayName": "contact agent 1",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ติดต่อเจ้าหน้าที่สมชาย"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ สอบถามข้อมูลประกันอุบัติเหตุส่วนบุคคล" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.no"
+      },
+      "currentPage": {
+        "name": "More QA",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "คำถามของคุณใกล้เคียงกับ\n1. สอบถามข้อมูลประกันการเดินทางในประเทศ\n2. สอบถามข้อมูลประกันชีวิต\n3. สอบถามข้อมูลประกันเดินทางต่างประเทศ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.no"
+      },
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ดูเหมือนว่าเราไม่สามารถตอบคำถามนี้ได้" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Reset State",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "สอบถามข้อมูลได้เพิ่มเติมได้เลยค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ติดต่อสมชาย"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ สอบถามข้อมูลสินเชื่อรถยนต์" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692707773,
+    "nanos": 39505000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

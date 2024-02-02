@@ -1,0 +1,22 @@
+{
+  "name": "ae50e130-88e7-4d24-a37b-33c900b3d29e",
+  "displayName": "Validate Intent",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.dialog-act-prediction = 1",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Reformulate Question",
+    "name": "15e98567-13a5-4cb0-8d79-fe471e9a0398"
+  }, {
+    "condition": "$session.params.dialog-act-prediction != 1",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Not Question",
+    "name": "280ba283-d85e-4f77-a6e8-0234f30406e7"
+  } ]
+}

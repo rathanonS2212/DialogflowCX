@@ -1,0 +1,62 @@
+{
+  "name": "8786e996-3eff-455d-b6b7-8615a4d2696f",
+  "displayName": "Full payment credit",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ขอวิธีชำระเงินเต็มจำนวนผ่านบัตรเครดิต"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ ฉันสามารถชำระเงินเต็มจำนวนด้วยบัตรเครดิตได้อย่างไร?" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "การชำระเงินเต็มจำนวนด้วยบัตรเครดิต ทำได้โดยขั้นตอนดังนี้\n1. ไปที่หน้าชำระเงินบนเว็บไซต์หรือแอปฯ\n2. เลือกประเภทการชำระเงินเป็นบัตรเครดิต\n3. ใส่ข้อมูลบัตรเครดิตและเลือกชำระเต็มจำนวน\n4. ยืนยันการชำระเงิน" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692187392,
+    "nanos": 510395000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

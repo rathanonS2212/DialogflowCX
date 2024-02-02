@@ -1,0 +1,10 @@
+{
+  "name": "8b855498-229f-47c7-bf95-a6600fb698cb",
+  "displayName": "Reformulate question",
+  "genericWebService": {
+    "uri": "https://ml-dev-onprem.appman.co.th/v1/alethia-tools/reformulate-question/dialogflow"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

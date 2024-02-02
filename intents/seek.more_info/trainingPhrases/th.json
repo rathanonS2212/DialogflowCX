@@ -1,0 +1,336 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "อยากคุยกับคน"
+    } ],
+    "repeatCount": 2,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอคุยกับเจ้าหน้าที่หน่อยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอคุยกับเจ้าหน้าที่"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ติดต่อเจ้าหน้าที่"
+    } ],
+    "repeatCount": 2,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ติดต่อจนท"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สนใจข้อมูลอื่น ๆ ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลเพิ่มค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอสอบถามข้อมูลเพิ่มเติมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการสอบถามข้อมูลค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลอื่น ๆ ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอสอบถามข้อมูลครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลเพิ่มเติมค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลอื่น ๆ ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการสอบถามเพิ่มเติมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอ้ความช่วยเหลือเกี่ยวกับคำถามอื่น"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการข้อมูลอื่นครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอความช่วยเหลือเกี่ยวกับข้อมูลครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอสอบถามเพิ่มเติมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการข้อมูลเพิ่มเติมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลเพิ่มเติมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการขอข้อมูลอื่น ๆ ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอความช่วยเหลือในการหาข้อมูลครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการสอบถามข้อมูลเพิ่มเติมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลเสริม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอสอบถามข้อมูลอื่นๆ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการสอบถามข้อมูลเพิ่ม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สนใจข้อมูลอื่นๆ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ประสงค์ทราบข้อมูลเพิ่มเติม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการข้อมูลอื่นๆ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลเสริม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลอื่น"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอสอบถามข้อมูลอื่น"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอสอบถามรายละเอียดเพิ่ม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอความช่วยเสนอข้อมูล"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอสอบถามข้อมูลเพิ่ม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการข้อมูลเพิ่มเติม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามรายละเอียดเพิ่ม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอรู้ข้อมูลเพิ่มเติม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลอื่นๆ"
+    } ],
+    "repeatCount": 2,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลเพิ่ม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอรายละเอียดอื่นๆ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลเพิ่มที่นี่"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลอื่นเกี่ยวกับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการข้อมูลเสริม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ประสงค์ทราบข้อมูลอื่น"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอรายละเอียดเพิ่มเติม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการข้อมูลเพิ่ม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลที่เกี่ยวข้อง"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลอื่นๆ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลเพิ่มเติม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ติดต่อเจ้าหน้าที่"
+    }, {
+      "text": "สมชาย",
+      "parameterId": "person"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามหน่อยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูล"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการสอบถามข้อมูลที่นอกเหนือจากที่มีให้ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการสอบถามข้อมูลอื่นๆที่นอกเหนือจากที่ให้ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  } ]
+}

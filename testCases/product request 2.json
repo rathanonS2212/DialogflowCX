@@ -1,0 +1,445 @@
+{
+  "name": "387e8600-635c-44d7-b97f-aafc965cda16",
+  "tags": [ "#fail" ],
+  "displayName": "product request 2",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "สนประกันมอไซค์"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "seek.product_info"
+      },
+      "currentPage": {
+        "name": "ea3572da-0989-4cee-b94e-3109c8acbc44",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ลูกค้าสนใจประกันรถใช่มั้ยคะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอสอบถามข้อมูลเพิ่มเติมนะคะ" ]
+      }, {
+        "text": [ "ขอทราบประเภทของรถด้วยค่ะ (เช่น รถยนต์ รถจักรยานยนต์)" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "รถยนต์"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอทราบยี่ห้อรถด้วยค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "honda"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอทราบรุ่นของรถ ด้วยค่ะ (แนะนำให้พิมพ์รุ่นรถเป็นภาษาอังกฤษ ขอบคุณค่ะ)" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "accord"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอทราบปีรุ่นรถด้วยค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "2019"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอทราบอายุของรถด้วยค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "5"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "c8cce4c7-ed5c-4bdc-a74c-d34d0654e481",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอบคุณสำหรับข้อมูลค่ะ \nข้อมูลรถของลุกค้า ถูกต้องมั้ยคะ\n\nประเภทของรถ: รถยนต์\nยี่ห้อ: Honda\nรุ่น: accord\nรุ่นปี: 2019\nอายุรถ: 5 ปี" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.no"
+      },
+      "currentPage": {
+        "name": "effe4fb7-4b21-40fb-8637-dad6caff642d",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขออภัยค่ะ ต้องการกรอกข้อมูลอีกครั้งมั้ยคะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอสอบถามข้อมูลเพิ่มเติมนะคะ" ]
+      }, {
+        "text": [ "ขอทราบประเภทของรถด้วยค่ะ (เช่น รถยนต์ รถจักรยานยนต์)" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "รถยนต์"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอทราบยี่ห้อรถด้วยค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "honda"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอทราบรุ่นของรถ ด้วยค่ะ (แนะนำให้พิมพ์รุ่นรถเป็นภาษาอังกฤษ ขอบคุณค่ะ)" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "toyota"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "seek.product_info"
+      },
+      "currentPage": {
+        "name": "ea3572da-0989-4cee-b94e-3109c8acbc44",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ลูกค้าสนใจประกันรถใช่มั้ยคะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอสอบถามข้อมูลเพิ่มเติมนะคะ" ]
+      }, {
+        "text": [ "ขอทราบรุ่นของรถ ด้วยค่ะ (แนะนำให้พิมพ์รุ่นรถเป็นภาษาอังกฤษ ขอบคุณค่ะ)" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yaris"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอทราบรุ่นของรถ ด้วยค่ะ (แนะนำให้พิมพ์รุ่นรถเป็นภาษาอังกฤษ ขอบคุณค่ะ)" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yaris"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอทราบรุ่นของรถ ด้วยค่ะ (แนะนำให้พิมพ์รุ่นรถเป็นภาษาอังกฤษ ขอบคุณค่ะ)" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "toyota yaris"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "seek.product_info"
+      },
+      "currentPage": {
+        "name": "ea3572da-0989-4cee-b94e-3109c8acbc44",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ลูกค้าสนใจประกันรถใช่มั้ยคะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "b29a2d39-be9f-4603-8db1-cd208f214c6e",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ขอสอบถามข้อมูลเพิ่มเติมนะคะ" ]
+      }, {
+        "text": [ "ขอทราบรุ่นของรถ ด้วยค่ะ (แนะนำให้พิมพ์รุ่นรถเป็นภาษาอังกฤษ ขอบคุณค่ะ)" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "toyota yaris"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "seek.product_info"
+      },
+      "currentPage": {
+        "name": "ea3572da-0989-4cee-b94e-3109c8acbc44",
+        "flow": "Product Info"
+      },
+      "textResponses": [ {
+        "text": [ "ลูกค้าสนใจประกันรถใช่มั้ยคะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Product Info"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692706224,
+    "nanos": 963233000
+  },
+  "testConfig": {
+    "flow": "Product Info",
+    "page": "Start Page"
+  }
+}

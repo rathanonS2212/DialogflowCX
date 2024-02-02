@@ -1,0 +1,374 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "ขอปรับค่างวดรถ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ข้อข้อมูลรีไฟแนนซ์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลค่างวดรถ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอปรับโครงสร้างหนี้รถยนต์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "re-finance"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต่อภาษี"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอสินเชื่อ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ถ้าผมต้องการกู้เพื่อซื้อรถจะต้องเสียดอกเบี้ยเท่าไหร่ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ผมขอข้อมูลเกี่ยวกับตัวเลือกของการค้ำประกันครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "กรุณาแนะนำเกี่ยวกับเงื่อนไขในการกู้รถยนต์ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "คุณสามารถแนะนำแพลนในการกู้เงินสำหรับรถยนต์มั้ยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ผมสนใจในการกู้เงินซื้อรถครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ผมขอข้อมูลเกี่ยวกับการกู้รถครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "การกู้เงินในการซื้อรถยนต์คืออะไร"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ผมสามารถขอกู้รถยนต์ได้หรือไม่ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "คุณสามารถแนะนำเรื่องการจัดไฟแนนซ์รถยนต์และการรีไฟแนนซ์ได้ไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ฉันต้องการให้คุณช่วยเสนอแนะเรื่องสินเชื่อค่ารถมือสองและการขอสินเชื่อรถยนต์ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "กรุณาแนะนำเรื่องการขอสินเชื่อซื้อรถและรีไฟแนนซ์ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอติดต่อเรื่องการขอสินเชื่อซื้อรถ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามเกี่ยวกับการขอสินเชื่อรถยนต์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลสินเชื่อรถยนต์และการรีไฟแนนซ์ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ฉันสามารถติดต่อเรื่องสินเชื่อรถยนต์หรือการรีไฟแนนซ์ได้ที่ไหน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขั้นตอนการขอสินเชื่อเพื่อซื้อรถยนต์อยู่ในลักษณะไหนคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีคำแนะนำเกี่ยวกับการขอสินเชื่อรถยนต์ไหมคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ข้อมูลสำหรับการขอสินเชื่อรถยนต์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการข้อมูลเรื่องการผ่อนชำระเงินกู้รถยนต์ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการสอบถามวิธีการรีไฟแนนซ์รถยนต์ด้วยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "รีไฟแนนซ์รถยนต์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สินเชื่อรถยนต์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีแพ็คเกจเกี่ยวกับสินเชื่อรถยนต์มั้ยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีคำแนะนำใดๆเกี่ยวกับการขอกู้เงินซื้อรถจากธนาคารมั้ยคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ผ่อนค่างวดไม่ไหว"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอเลื่อนผ่อนสินเชื่อ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "คำถามเกี่ยวกับอัตราดอกเบี้ยในการกู้เงินเพื่อซื้อรถอยู่ที่ไหนค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "กู้เงินเพื่อซื้อรถเป็นวิธีไหนคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เงินผ่อนรถสามารถขอแนะนำอะไรมั๊ยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สามารถกู้เงินเพื่อซื้อรถได้มั้ยคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการโอนสิทธิสัญญาเช่าซื้อเปลี่ยนชื่อผู้เช่าซื้อรถ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามเรื่องกู้เงินซื้อรถค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากขอสินเชื่อเพื่อซื้อรถยนต์มีทางเลือกไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีเงื่อนไขอะไรบ้างในการขอสินเชื่อเพื่อซื้อรถคันใหม่ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "การขอเงินกู้เพื่อขอซื้อรถยนต์ต้องทำอย่างไรครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอเอกสารปะกอบสมัครสินเชื่อรถยนต์หน่อยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการสอบถามเงื่อนไขในการขอสินเชื่อรถยนต์ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอยื่นเรื่องสินเชื่อเพื่อขอเงินกู้ซื้อรถคันใหม่หน่อยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากรู้ข้อมูลเกี่ยวกับโปรแกรมสินเชื่อกู้ซื้อรถครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีบริการสินเชื่อค่ารถยนต์ไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "การขอสินเชื่อเพื่อซื้อรถคันใหม่มีเงื่อนไขอะไรบ้าง"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สามารถสมัครสินเชื่อรถยนต์ตัวใหม่ได้อย่างไรครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลสัญญาสินเชื่อ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สินเชื่อ กรุงศรี ออโต้"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากสอบถามว่า รถยนต์ผ่อนอยู่สามารถกู้ได้ไหมคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "รถที่ผ่อนอยู่สามารถกู้ได้ไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ทำเรื่องรีไฟแนนซ์วันที่"
+    }, {
+      "text": "14/06/66",
+      "parameterId": "date"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "รถ",
+      "parameterId": "vehicle-type"
+    }, {
+      "text": "ผ่อนอยู่กู้ได้มั้ยคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "จะรีไฟแนนซ์ได้มั้ยคับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ถ้าจะรีไฟแนนซ์ใหม่ได้ไหมคับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เลื่อนจ่ายค่างวด"
+    }, {
+      "text": "รถมอเตอร์ไซค์",
+      "parameterId": "vehicle-type"
+    }, {
+      "text": "ได้ไหมค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สามารถพักชำระหนี้ได้ไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ผมขอกู้ได้ไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  } ]
+}

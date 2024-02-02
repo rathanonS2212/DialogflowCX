@@ -1,0 +1,33 @@
+{
+  "name": "df54dbcc-9262-4afa-924b-ea9f4d084a05",
+  "displayName": "seek.product_info",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  }, {
+    "id": "vehicle-model",
+    "entityType": "@vehicle-model"
+  }, {
+    "id": "vehicle-brand",
+    "entityType": "@vehicle-brand"
+  }, {
+    "id": "insurance-level",
+    "entityType": "@insurance-type"
+  }, {
+    "id": "vehicle-type",
+    "entityType": "@vehicle-type"
+  }, {
+    "id": "unit-currency",
+    "entityType": "@sys.unit-currency"
+  }, {
+    "id": "vehicle-model-year",
+    "entityType": "@vehicle-model-year"
+  }, {
+    "id": "unit-currency1",
+    "entityType": "@sys.unit-currency"
+  } ],
+  "priority": 500000,
+  "description": "State or inquire about product information in relation to insurance products.",
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 74
+}

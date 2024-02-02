@@ -1,0 +1,32 @@
+{
+  "name": "4adeac3b-d344-4741-8945-e751b9e992e7",
+  "displayName": "Get Name",
+  "form": {
+    "parameters": [ {
+      "displayName": "query-garage-name",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "รบกวนแจ้งชื่อบริษัทประกันเพื่อค้นหาอู่ที่สามารถเข้าใช้บริการด้วยค่ะ" ]
+            },
+            "languageCode": "th"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Garage",
+    "name": "5be7ff20-4bf7-4976-bd51-7a079fe5b421"
+  } ]
+}

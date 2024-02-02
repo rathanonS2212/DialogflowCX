@@ -1,0 +1,6 @@
+{
+  "name": "299e7f66-f45e-4733-a65c-f3e598ec20a0",
+  "displayName": "vehicle-model",
+  "kind": "KIND_REGEXP",
+  "enableFuzzyExtraction": true
+}

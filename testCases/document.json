@@ -1,0 +1,62 @@
+{
+  "name": "fa0ab176-5d46-4ba5-b61e-65e5b55533d4",
+  "displayName": "document",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ส่งเอกสารไปได้ที่ไหน"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ ส่งเอกสารที่ไหน?" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "สามารถส่งได้ 2 วิธี\n1. ผ่านแอปพลิเคชัน LINE โดยเลือกเมนูสอบถามข้อมูล \u003e ส่งเอกสารเกี่ยวกับประกันภัย\n2. ผ่านทางไปรษณีย์ โดยส่งสารมาที่ บริษัท อยุธยา แคปปิตอล ออโต้ ลีส จำกัด (มหาชน)\nอาคารกรุงศรีเพลินจิต ทาวเวอร์ ชั้น 16 เลขที่ 550 ถนนเพลินจิต แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692187624,
+    "nanos": 542819000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

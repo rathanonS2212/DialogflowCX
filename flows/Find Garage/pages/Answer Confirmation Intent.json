@@ -1,0 +1,37 @@
+{
+  "name": "a7aacc93-9ea0-4d65-ac25-43579374c40d",
+  "displayName": "Answer Confirmation Intent",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = agreement",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ขอบคุณที่ใช้บริการค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "cf6611eb-4298-4169-b370-9ff5f97a637b"
+  }, {
+    "condition": "$session.params.intent = disagreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "GetAll Confirmation",
+    "name": "18d54ea7-49dc-482c-bdb9-35c956d8891e"
+  }, {
+    "condition": "$session.params.intent != agreement AND $session.params.intent != disagreement",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "text1",
+        "value": null
+      } ]
+    },
+    "targetPage": "Answer Response",
+    "name": "1edc685a-8b25-4a39-8c77-8e62fb6e5f54"
+  } ]
+}

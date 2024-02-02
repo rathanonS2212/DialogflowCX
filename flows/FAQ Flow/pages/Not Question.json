@@ -1,0 +1,37 @@
+{
+  "name": "e7d1841c-05d3-4526-83e0-2ca6542ab4a4",
+  "displayName": "Not Question",
+  "form": {
+    "parameters": [ {
+      "displayName": "text",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "ไม่เข้าใจคำถามค่ะ ต้องการพิมพ์คำถามอีกครั้งมั้ยคะ" ]
+      },
+      "languageCode": "th"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "question",
+      "value": null
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "Intent classification",
+      "tag": "1"
+    },
+    "targetPage": "Validate Not Question Intent",
+    "name": "0d65055b-e4d3-4842-a4d0-ddf17444c460"
+  } ]
+}

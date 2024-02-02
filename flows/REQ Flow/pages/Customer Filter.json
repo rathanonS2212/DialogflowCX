@@ -1,0 +1,37 @@
+{
+  "name": "779871aa-32dc-44c0-8511-f87008f0492d",
+  "displayName": "Customer Filter",
+  "form": {
+    "parameters": [ {
+      "displayName": "user-information",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "น้องคานะขอทราบรายละเอียดเพิ่มเติมตามด้านล่าง \nเพื่อส่งต่อให้กับเจ้าหน้าที่นะคะ" ]
+      },
+      "languageCode": "th"
+    }, {
+      "text": {
+        "text": [ "ชื่อ-นามสกุล : \nเบอร์โทรศัพท์ :\nเลขทะเบียนรถ :\nคุณลูกค้าเคยซื้อประกันกับทางกรุงศรีออโต้หรือไม่ : \nชื่อเจ้าหน้าที่ที่เคยติดต่อ(หากทราบ) :" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "GPT Requirements",
+    "name": "38c7471a-7c1a-4a01-b72c-6f73cb50b238"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "209ed3b8-9611-40a7-9de3-b11c5d223182",
+  "displayName": "contact.sales",
+  "parameters": [ {
+    "id": "time-period",
+    "entityType": "@sys.time-period"
+  } ],
+  "priority": 500000,
+  "description": "Ask to contact a salesperson directly.",
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 8
+}

@@ -1,0 +1,10 @@
+{
+  "name": "1ea02cd2-19c3-448b-ae89-7c9245ebdf04",
+  "displayName": "Intent classification",
+  "genericWebService": {
+    "uri": "https://ml-dev-onprem.appman.co.th/v1/intent_classification/dialogflow"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

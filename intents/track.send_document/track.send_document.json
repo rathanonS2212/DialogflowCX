@@ -1,0 +1,7 @@
+{
+  "name": "f15845a8-9880-4b56-b201-3034bbd2cf58",
+  "displayName": "track.send_document",
+  "priority": 500000,
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 27
+}

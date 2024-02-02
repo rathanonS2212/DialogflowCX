@@ -1,0 +1,29 @@
+{
+  "name": "34f1b9e0-ba1a-47d6-b91f-62e1d4dcfca2",
+  "displayName": "Old Customer Intent",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = agreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Name",
+    "name": "c1ce5c62-ab99-434d-94dc-036854d34492"
+  }, {
+    "condition": "$session.params.intent = disagreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "GetAll Confirmation",
+    "name": "63edbb32-a9b6-4114-9014-d21f3235b9d7"
+  }, {
+    "condition": "$session.params.intent = \"sys\\.no_match\" OR $session.params.intent != \"sys\\.no_match\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Garage",
+    "name": "cfa16f5a-747e-4b6a-8396-2a3e5fcf3804"
+  } ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "f92d04b9-0319-48ac-8daf-33a5f5097f53",
+  "displayName": "test-bie-1",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "อยากกินข้าว"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ ส่งเอกสารที่ไหน?" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.no"
+      },
+      "currentPage": {
+        "name": "More QA",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "คำถามของคุณใกล้เคียงกับ\n1. ชำระเบี้ยประกันยังไง?\n2. สอบถามข้อมูลประกันชีวิต\n3. สอบถามข้อมูลสินเชื่อรถยนต์" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1691738008,
+    "nanos": 931325000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

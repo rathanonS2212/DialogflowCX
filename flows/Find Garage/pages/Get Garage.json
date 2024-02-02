@@ -1,0 +1,25 @@
+{
+  "name": "f8b5cb8c-9fe8-4d8c-8d50-b4a6e7834221",
+  "displayName": "Get Garage",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "รอสักครู่ค่ะ" ]
+      },
+      "languageCode": "th"
+    } ],
+    "webhook": "Garage search",
+    "tag": "1"
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Answer Response",
+    "name": "55e14704-cf4f-4485-9f3b-052a76572080"
+  } ]
+}

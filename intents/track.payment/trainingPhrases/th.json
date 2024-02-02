@@ -1,0 +1,349 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "ขอใบผ่อนค่าเบี้ยหน่อย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอใบผ่อนชำระ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "จ่ายเงินงวดถัดไป"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามวิธีการชำระเงินกรมธรรม์ประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลเกี่ยวกับกรมธรรม์ประกันและวิธีชำระเงินค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากรับใบเสร็จประกันแบบออนไลน์ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการใบเสร็จอิเล็กทรอนิกส์สำหรับประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอลิงค์ชำระเงินประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากรู้เรื่องใบเสร็จการชำระเงินประกันคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "รบกวนขอความช่วยเหลือเรื่องการชำระเงินประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สามารถเช็คประวัติการชำระเงินประกันได้ที่ไหนครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับลิงก์ชำระเงินประกันครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับข้อมูลใบแจ้งหนี้ประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการข้อมูลเกี่ยวกับการค้นหาลิงค์ชำระเงินประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สถานะการชำระเงิน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ทราบข้อมูลเพิ่มเติมเกี่ยวกับสถานะการชำระเงินค่าประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการรายละเอียดเกี่ยวกับการชำระเงินค่าประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีปัญหาเกี่ยวกับการเข้าถึงลิงค์ชำระเงินประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ตรวจสอบใบเสร็จยืนยันการชำระเงิน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการทราบเกี่ยวกับวิธีการชำระเงินประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอใบแจ้งหนี้"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่สามารถทำรายการชำระค่าเบี้ยประกันได้"
+    } ],
+    "repeatCount": 2,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "จ่ายเงินไปแล้ว ส่งสลิปทางนี้ได้ไหมคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สามารถขอข้อมูลเกี่ยวกับใบเสร็จการชำระประกันได้ไหมครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากทราบเกี่ยวกับวิธีการส่งใบแจ้งหนี้ประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ทำใบชำระเงินหาย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอใบ pay in หน่อย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอลิงก์ชำระเงิน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอลิงค์ชำระค่าประกันสินค้าครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามข้อมูลเกี่ยวกับกรมธรรม์ประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอรายละเอียดใบเสร็จการชำระค่าประกันครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลเกี่ยวกับใบแจ้งหนี้ประกันสินค้าครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้ใบแจ้งหนี้ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่มีใบแจ้งหนี้ส่งให้ดูเลย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "หาใบจ่ายเงินประกันไม่เจอ ส่งมาให้ใหม่ได้ไหมคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามใบเสร็จค่างวดรถ​ ไม่เห็นส่งมาให้เลยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สามารถขอใบเสร็จอิเล็กทรอนิกส์ได้ไหมคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับลิงค์ชำระค่าประกันเลยนะคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับ คิวอาร์โค๊ต ขำระค่าประกันครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ใบชำระ ไม่ส่งมา "
+    }, {
+      "text": "2",
+      "parameterId": "number"
+    }, {
+      "text": " เดือนเเล้ว"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สามารถโอนชำระค่าประกัน ได้ที่เลขบัญชีอะไรคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับเอกสารจ่ายค่าประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ได้​รับบิลตั้งแต่เดือน"
+    }, {
+      "text": "เมษา​วันที่​20​/4/66",
+      "parameterId": "date"
+    }, {
+      "text": "ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "จ่ายไม่ได้ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "จ่ายเซเว่นไม่ได้"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอลิงค์ใหม่ได้ไหมคะจะจ่ายค่าประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากให้ส่งลิงค์ชำระเงินค่าประกันทางไลน์ได้ไหมคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้ใบจ่ายเงินเลยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้ลิงค์สแกน จ่ายเงินเลยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ได้ทำประกัน"
+    }, {
+      "text": "วิริยะ",
+      "parameterId": "insurance-type"
+    }, {
+      "text": "ไป อยากได้ช่องทางการชำระ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่เห็นส่งข้อความมาให้ชำระ ไม่รู้จะจ่ายที่ไหน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ช่วยส่งเอกสารที่จะจ่ายค่าต่อ พรบ รถมาได้ไหมคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้เอกสารเสียค่าต่อประกันเลยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "จ่ายค่างวด",
+      "auto": true
+    }, {
+      "text": "รถ",
+      "auto": true
+    }, {
+      "text": "หมดแล้วค่ะ แต่ยังไม่ได้คู่มือ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  } ]
+}

@@ -1,0 +1,135 @@
+{
+  "name": "701a2e2a-a08e-4aff-9b67-024a286b5278",
+  "tags": [ "#fail" ],
+  "displayName": "product request 1",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ขอประกันสำหรับ honda accord 2019"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ ประกันอะไหล่คืออะไร" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.no"
+      },
+      "currentPage": {
+        "name": "More QA",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "คำถามของคุณใกล้เคียงกับ\n1. ชำระเบี้ยประกันยังไง?\n2. สอบถามข้อมูลประกันอุบัติเหตุส่วนบุคคล\n3. สอบถามข้อมูลสินเชื่อรถยนต์" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.no"
+      },
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ดูเหมือนว่าเราไม่สามารถตอบคำถามนี้ได้" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Reset State",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "สอบถามข้อมูลได้เพิ่มเติมได้เลยค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ขอดูประกันรถ"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "End Session",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "เนื่องจากขณะนี้มีผู้ใช้งานจำนวนมาก กรุณารอสักครู่ ก่อนลองใหม่อีกครั้งค่ะ ขออภัยในความไม่สะดวก" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692705215,
+    "nanos": 680073000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

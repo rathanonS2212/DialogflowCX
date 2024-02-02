@@ -1,0 +1,46 @@
+{
+  "name": "28a4e0c6-3619-4cf9-8bb6-66399586652d",
+  "displayName": "FAQ Flow",
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Intent Classify",
+    "name": "d5c8d289-2e30-41c2-be0b-8331f21ea34f"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ฉันไม่เข้าใจค่ะ รบกวนทวนคำถามอีกครั้งค่ะ", "อะไรนะคะ พิมพ์คำถามอีกครั้งได้ไหมคะ", "ขอโทษค่ะ ลองทวนคำถามอีกครั้งได้ไหมคะ", "ขอโทษค่ะ ส่งคำถามอีกครั้งได้ไหมคะ", "ขอคำถามอีกทีได้ไหมคะ", "ขอโทษค่ะ ฉันไม่เข้าใจค่ะ", "ขอโทษค่ะ อะไรนะคะ", "อีกทีได้ไหมคะ", "ว่ายังไงนะคะ", "ช่วยส่งข้อความอีกทีได้ไหมคะ", "ฉันไม่เข้าใจค่ะ", "ฉันไม่เข้าใจคำถาม ทวนคำถามอีกครั้งค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "4b9a2dc2-4cd8-472f-96ae-e34e4da0d2d4"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ฉันไม่เข้าใจค่ะ ขอคำถามอีกครั้งได้ไหมคะ", "อะไรนะคะ ขอคำถามใหม่ได้ไหมคะ", "ขอโทษค่ะ ลองส่งข้อความอีกครั้งได้ไหมคะ", "ขอโทษค่ะ ส่งข้อความอีกครั้งได้ไหมคะ", "พิมพ์อีกทีได้ไหมคะ", "ขอโทษค่ะ ฉันไม่เข้าใจค่ะ", "ขอโทษค่ะ อะไรนะคะ", "อีกทีได้ไหมคะ", "ว่ายังไงนะคะ", "ช่วยส่งข้อความอีกทีได้ไหมคะ", "ฉันไม่เข้าใจค่ะ", "ฉันไม่เข้าใจคำถามค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "48fdd39d-64d2-4dc1-aae8-8e905308ba4c"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

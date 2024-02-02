@@ -1,0 +1,112 @@
+{
+  "name": "46a039ad-d850-466b-81f8-c81c35f96f87",
+  "displayName": "product type",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "เลือกประกันชั้นไหนดี"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ ประกันแต่ละชั้น แตกต่างกันอย่างไร" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ประกันชั้น 1 คุ้มครองทุกการชน\nประกันชั้น 2+ คุ้มครองรถชนรถ ทั้งรถเราและคู่กรณี (ต้องมีคู่กรณี)\nปนะกันชั้น 3+ คุ้มครองรถที่เราไปชนและซ่อมรถเราด้วย\nประกันชั้น 3 คุ้มครองรถที่เราไปชนเท่านั้น\nประกันชั้น 2 คุ้มครองรถหาย (รถชนไม่คุ้มครอง)\n\nดูรายละเอียดเพิ่มเติม คลิก https://www.krungsriautobroker.com/Content/What-different-motor-insurance" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.no"
+      },
+      "currentPage": {
+        "name": "Contact Agent",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ต้องการติดต่อเจ้าหน้าที่ไหมคะ?" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.no"
+      },
+      "currentPage": {
+        "name": "End Session",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ยินดีที่ได้บริการ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692176555,
+    "nanos": 355886000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

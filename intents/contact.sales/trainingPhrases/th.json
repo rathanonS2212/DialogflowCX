@@ -1,0 +1,54 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "ติดต่อจนท"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการติดต่อฝ่ายขายครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการติดต่อฝ่ายขายค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการติดต่อฝ่ายขาย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ติดต่อฝ่ายขาย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต้องการติดต่อฝ่ายขา"
+    }, {
+      "text": "ยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ติดต่อฝ่ายขายค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ติดต่อเจ้าหน้าที่ฝ่ายขาย",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  } ]
+}

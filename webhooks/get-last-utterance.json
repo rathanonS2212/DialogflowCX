@@ -1,0 +1,10 @@
+{
+  "name": "423e32a8-ab18-4f7e-b7b1-9f97f6f3db18",
+  "displayName": "get-last-utterance",
+  "genericWebService": {
+    "uri": "https://ml-dev-onprem.appman.co.th/v1/alethia-tools/get-last-utterance/dialogflow"
+  },
+  "timeout": {
+    "seconds": 10
+  }
+}

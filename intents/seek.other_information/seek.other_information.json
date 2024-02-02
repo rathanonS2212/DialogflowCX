@@ -1,0 +1,12 @@
+{
+  "name": "a522e417-2638-4072-8c0d-a56a504ef89e",
+  "displayName": "seek.other_information",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "description": "Make a statement or inquire for more information.",
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 50
+}

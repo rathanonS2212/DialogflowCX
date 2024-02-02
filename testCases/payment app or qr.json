@@ -1,0 +1,62 @@
+{
+  "name": "e373dcda-5301-45ef-95a2-5aeceadc05c6",
+  "displayName": "payment app or qr",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ขอขั้นตอนการชำระเงินผ่านแอปหรือ qr code"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ ฉันควรทำอย่างไรเพื่อชำระเงินผ่านแอปธนาคารหรือ QR code" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "การชำระเงินสามารถทำได้ตามขั้นตอนต่อไปนี้\n1. เปิดแอปธนาคารของคุณแล้วเลือกเมนู 'ชำระเงิน' หรือ 'โอน'\n2. เลือกวิธีชำระเงินด้วย 'รหัส QR' และสแกนใบแจ้งชำระเงินที่มี\n3. ตรวจสอบรายละเอียดและใส่จำนวนเงินที่ต้องการชำระ\n4. ยืนยันการชำระเงิน" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692187180,
+    "nanos": 651187000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

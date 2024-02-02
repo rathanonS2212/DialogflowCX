@@ -1,0 +1,33 @@
+{
+  "name": "cbe20456-9a75-49b2-85c9-3b75fb1475eb",
+  "displayName": "Intent Check",
+  "form": {
+    "parameters": [ {
+      "displayName": "text3",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "Intent classification",
+      "tag": "1"
+    },
+    "targetPage": "Validate Intent Check",
+    "name": "ed9eb821-772b-4e57-a4fa-2e2a20b8660c"
+  } ]
+}

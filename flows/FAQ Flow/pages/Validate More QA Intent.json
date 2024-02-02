@@ -1,0 +1,37 @@
+{
+  "name": "ee4b41c4-3d8e-4860-8c7d-9e61976a4665",
+  "displayName": "Validate More QA Intent",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = agreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Response Other QA",
+    "name": "b2a7d01e-d350-4cdd-91e8-930b67b22f8a"
+  }, {
+    "condition": "$session.params.intent = disagreement",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ดูเหมือนว่าเราไม่สามารถตอบคำถามนี้ได้" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "targetPage": "Intent Check",
+    "name": "1db500ce-2f45-460f-9f22-2d44f9f4566c"
+  }, {
+    "condition": "$session.params.intent != agreement AND $session.params.intent != disagreement",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "text2",
+        "value": null
+      } ]
+    },
+    "targetPage": "More QA",
+    "name": "c28cb019-2b6a-4359-8dc3-eda25bd24465"
+  } ]
+}

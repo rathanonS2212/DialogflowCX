@@ -1,0 +1,105 @@
+{
+  "name": "b7aa4dd7-fee6-4535-bd1e-d90701c1d75b",
+  "displayName": "test-bie-0",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Customer Filter",
+        "flow": "REQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "น้องคานะขอทราบรายละเอียดเพิ่มเติมตามด้านล่าง \nเพื่อส่งต่อให้กับเจ้าหน้าที่นะคะ\n\nชื่อ-นามสกุล : \nเบอร์โทรศัพท์ :\nเลขทะเบียนรถ :\nคุณลูกค้าเคยซื้อประกันกับทางกรุงศรีออโต้หรือไม่ : \nชื่อเจ้าหน้าที่ที่เคยติดต่อ(หากทราบ) :\n \n\n" ]
+      } ],
+      "currentFlow": {
+        "name": "REQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Mr. walnut thompson, กด-1234, 1212123123, never"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "agentName": "",
+        "fullName": "Mr. walnut thompson",
+        "isOldCustomer": "never",
+        "missingKeys": [ ],
+        "phoneNumber": "1212123123",
+        "status": "Ready",
+        "user-information": "Mr. walnut thompson, กด-1234, 1212123123, never",
+        "vehicleLicense": "กด-1234"
+      },
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "REQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "รบกวนยืนยันข้อมูลด้วยค่ะ\nชื่อ-นามสกุล: Mr. walnut thompson\nเบอร์โทรที่ติดต่อได้: 1212123123\nเลขทะเบียนรถ: กด-1234\nเคยซื้อประกันกับทางกรุงศรีออโต้หรือไม่: never\nชื่อเจ้าหน้าที่ที่เคยติดต่อ(หากทราบ) : " ]
+      } ],
+      "currentFlow": {
+        "name": "REQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "agentName": "",
+        "fullName": "Mr. walnut thompson",
+        "isOldCustomer": "never",
+        "missingKeys": [ ],
+        "phoneNumber": "1212123123",
+        "status": "Ready",
+        "user-information": "Mr. walnut thompson, กด-1234, 1212123123, never",
+        "vehicleLicense": "กด-1234"
+      },
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Contact Agent",
+        "flow": "REQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "API call : ติดต่อเจ้าหน้าที่" ]
+      } ],
+      "currentFlow": {
+        "name": "REQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1691737593,
+    "nanos": 157803000
+  },
+  "testConfig": {
+    "flow": "REQ Flow",
+    "page": "Start Page"
+  }
+}

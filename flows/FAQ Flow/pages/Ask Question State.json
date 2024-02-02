@@ -1,0 +1,32 @@
+{
+  "name": "b0ce1742-051a-4d62-bbbc-69cb938f59d8",
+  "displayName": "Ask Question State",
+  "form": {
+    "parameters": [ {
+      "displayName": "question",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "พิมพ์ข้อความที่ต้องการจะสอบถามได้เลยค่ะ" ]
+            },
+            "languageCode": "th"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Intent Classify",
+    "name": "c2c693fa-2f6d-4104-97f0-7f7ec508da94"
+  } ]
+}

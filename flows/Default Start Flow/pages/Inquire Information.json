@@ -1,0 +1,40 @@
+{
+  "name": "af525ff9-5bf6-41d3-8c0a-9764b42d5afe",
+  "displayName": "Inquire Information",
+  "form": {
+    "parameters": [ {
+      "displayName": "Inquire-intent",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "สอบถามข้อมูลได้เลยค่ะ" ]
+      },
+      "languageCode": "th"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "intent",
+      "value": null
+    }, {
+      "parameter": "intent_score",
+      "value": null
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "Intent classification",
+      "tag": "1"
+    },
+    "targetPage": "InquireInformation Intent",
+    "name": "472e8d81-9d01-469d-97aa-63c73e3cc899"
+  } ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "6f406971-910c-4e19-9327-a545c8a1c64c",
+  "displayName": "Validate Contact Agent Intent",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = disagreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Another Question",
+    "name": "5ce1c6f1-f440-4121-b67f-b513e00454b1"
+  }, {
+    "condition": "$session.params.intent = agreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "REQ Flow",
+    "name": "bd0d8593-6fc7-49d8-a0dd-bc9c8110a12b"
+  }, {
+    "condition": "$session.params.intent != disagreement AND $session.params.intent != agreement",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "text4",
+        "value": null
+      } ]
+    },
+    "targetPage": "Contact Agent",
+    "name": "eda15d60-d1b3-4c4c-9426-7467e9ed5f30"
+  } ]
+}

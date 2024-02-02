@@ -1,0 +1,10 @@
+{
+  "name": "a310d815-fa93-4548-9f69-09b9a474b860",
+  "displayName": "Garage search",
+  "genericWebService": {
+    "uri": "https://ml-dev-onprem.appman.co.th/v1/alethia-tools/documents_search/dialogflow"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

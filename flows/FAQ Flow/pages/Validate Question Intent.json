@@ -1,0 +1,36 @@
+{
+  "name": "10313c73-2e89-4539-95a0-d7431ebf0e5f",
+  "displayName": "Validate Question Intent",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "Intent classification",
+    "tag": "1"
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = agreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Response QA",
+    "name": "bc79da26-25ad-4416-9ae0-8354839a7887"
+  }, {
+    "condition": "$session.params.intent = disagreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Check QA Existing",
+    "name": "58680c5b-ad3e-48c7-be6d-b18a8490aa60"
+  }, {
+    "condition": "$session.params.intent != agreement AND $session.params.intent != disagreement",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "text1",
+        "value": null
+      } ]
+    },
+    "targetPage": "Confirmation",
+    "name": "4b4a17dc-ba01-4622-a583-8071771443a1"
+  } ]
+}

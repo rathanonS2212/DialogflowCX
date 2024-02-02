@@ -1,0 +1,10 @@
+{
+  "name": "038ee843-fd42-40b2-ac2c-2e9fd28ac464",
+  "displayName": "Reformulate question_1",
+  "genericWebService": {
+    "uri": "https://a147-110-78-228-115.ngrok-free.app/v1/alethia-tools/reformulate-question/dialogflow"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

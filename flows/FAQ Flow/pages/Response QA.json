@@ -1,0 +1,23 @@
+{
+  "name": "2261b75e-d1b8-4320-9bb9-8513a3038495",
+  "displayName": "Response QA",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$session.params.answer" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Intent Check",
+    "name": "36a355ae-cf27-41f0-838b-efc653af7b01"
+  } ]
+}

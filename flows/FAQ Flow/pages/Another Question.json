@@ -1,0 +1,39 @@
+{
+  "name": "65d9ab8b-7366-4803-8a74-5f45e29293eb",
+  "displayName": "Another Question",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "สอบถามข้อมูลได้เพิ่มเติมได้เลยค่ะ" ]
+      },
+      "languageCode": "th"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "question",
+      "value": null
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "question",
+        "value": null
+      }, {
+        "parameter": "text1",
+        "value": null
+      }, {
+        "parameter": "text2",
+        "value": null
+      }, {
+        "parameter": "text3",
+        "value": null
+      } ]
+    },
+    "targetPage": "Reset State",
+    "name": "ab47c0c6-c129-4943-a4fb-592f8a6d87ae"
+  } ]
+}

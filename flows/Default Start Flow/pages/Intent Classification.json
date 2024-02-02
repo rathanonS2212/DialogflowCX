@@ -1,0 +1,110 @@
+{
+  "name": "0f7e536a-eab7-4ca3-be42-c6859fd5add4",
+  "displayName": "Intent Classification",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "Intent classification",
+    "tag": "1"
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = seek_garage",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Find Garage",
+    "name": "144d0b0a-0dae-4258-9c07-90537116ac87"
+  }, {
+    "condition": "$session.params.intent = inquire_more_information",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Inquire Information",
+    "name": "240d886c-366c-4463-8b9e-4679a7132e5b"
+  }, {
+    "condition": "$session.params.intent = inquire_document_state",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Collect Info For Tracking",
+    "name": "501e2752-82bb-4992-a75d-836548473626"
+  }, {
+    "condition": "$session.params.intent = send_additional_documents",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Collect Info For Tracking",
+    "name": "acfa7d7e-0f91-4012-9c30-e95a4964caaa"
+  }, {
+    "condition": "$session.params.intent = inquire_financial",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Question",
+    "name": "1d55db5e-fe38-446c-bf9d-e70e22a0dbaf"
+  }, {
+    "condition": "$session.params.intent = inquire_vehicle_insurance_product",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Product Info",
+    "name": "a7dff968-e8c3-4b89-85bf-d645e8b4f5a4"
+  }, {
+    "condition": "$session.params.intent = inquire_other_insurances",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Question",
+    "name": "1b60af23-e807-4416-9ba1-636ba6b7acb0"
+  }, {
+    "condition": "$session.params.intent = \"sys\\.no_match\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Question",
+    "name": "958f10b2-f736-4feb-8668-fa5b756cae60"
+  }, {
+    "condition": "$session.params.intent = greeting",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Greeting",
+    "name": "015da674-5cbe-4157-89f1-7dbd519e2bda"
+  }, {
+    "condition": "$session.params.intent = contact_salesperson",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "REQ Flow",
+    "name": "7d888fc2-5031-48c4-9e27-af56e5e36d1b"
+  }, {
+    "condition": "$session.params.intent = state_payment",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Collect Info For Tracking",
+    "name": "f4c16113-eb01-4964-bf96-7198be690447"
+  }, {
+    "condition": "$session.params.intent = inquire_payment_procedures",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Question",
+    "name": "0dd27430-0929-4927-89d9-35c4062c000b"
+  }, {
+    "condition": "$session.params.intent = agreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "4f7ae87c-e342-440d-86e6-0002faf39cad"
+  }, {
+    "condition": "$session.params.intent = disagreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "70abf665-9756-495d-9b62-9a4047ed8c16"
+  } ]
+}

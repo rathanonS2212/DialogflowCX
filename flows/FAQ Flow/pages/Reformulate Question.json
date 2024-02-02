@@ -1,0 +1,44 @@
+{
+  "name": "aeb26bf8-e7ed-4468-aa62-e8a76169b741",
+  "displayName": "Reformulate Question",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "Reformulate question",
+    "tag": "Default"
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirmation",
+    "name": "9a8666cb-daa3-4495-9c44-2090f752e518"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "End Session",
+    "event": "webhook.error.timeout",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "เนื่องจากขณะนี้มีผู้ใช้งานจำนวนมาก กรุณารอสักครู่ ก่อนทำรายการอีกครั้ง ขออภัยในความไม่สะดวกค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "cd4a75cf-1f38-4efd-950a-24e8c654305d"
+  }, {
+    "targetPage": "End Session",
+    "event": "webhook.error.unavailable",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "เนื่องจากขณะนี้มีผู้ใช้งานจำนวนมาก กรุณารอสักครู่ ก่อนทำรายการอีกครั้ง ขออภัยในความไม่สะดวกค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "name": "ffbbbd74-6e36-4fd0-9852-0563ca8772b1"
+  } ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "09180305-02fa-4bd2-ac2b-1425ea9e3dd8",
+  "displayName": "Validate Intent",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = agreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Contact Agent",
+    "name": "81059662-2a3e-416b-a689-2e928ede9f8c"
+  }, {
+    "condition": "$session.params.intent = disagreement",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "text",
+        "value": null
+      }, {
+        "parameter": "agentName",
+        "value": ""
+      }, {
+        "parameter": "fullName",
+        "value": ""
+      }, {
+        "parameter": "isOldCustomer",
+        "value": ""
+      }, {
+        "parameter": "vehicleLicense",
+        "value": ""
+      }, {
+        "parameter": "phoneNumber",
+        "value": ""
+      }, {
+        "parameter": "inquire-intent",
+        "value": null
+      }, {
+        "parameter": "intent",
+        "value": null
+      }, {
+        "parameter": "missingKeys",
+        "value": ""
+      }, {
+        "parameter": "status",
+        "value": ""
+      }, {
+        "parameter": "intent_score",
+        "value": null
+      }, {
+        "parameter": "textMissingKeys",
+        "value": ""
+      }, {
+        "parameter": "user-information",
+        "value": null
+      } ]
+    },
+    "targetPage": "Customer Filter",
+    "name": "a1abe248-ba6b-45e4-a1fd-2539a25a08a2"
+  }, {
+    "condition": "$session.params.intent != agreement AND $session.params.intent != disagreement",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "text",
+        "value": null
+      } ]
+    },
+    "targetPage": "Confirmation",
+    "name": "7e98a298-5b28-4bc2-9e96-a771d3060ffd"
+  } ]
+}

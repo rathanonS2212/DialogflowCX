@@ -1,0 +1,28 @@
+{
+  "name": "124583cc-33ae-4e9c-9c39-9326b3bddb09",
+  "displayName": "AnswerAll response",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "ข้อมูลประกันภัยและอู่ที่รับซ่อมทั้งหมด\n\n1. วิริยปะประกันภัย (Viriyah Insurance)\n   - https://www.viriyah.co.th/services/car-repair-center/\n\n2. ประกันภัยไทยวิวัฒน์ (Thai Vivat Insurance)\n   - https://www.thaivivat.co.th/th/service.php\n\n3. เมืองไทยประกันภัย (Muang Thai Insurance)\n   - https://www.muangthaiinsurance.com/th/page/ServiceSearchGarage\n\n4. อลิอันซ์ อยุธยา ประกันภัย (Allianz Ayudhya Insurance)\n   - https://gi.azay.co.th/claim/information/info-garage/?type=none\u0026province=41\u0026area=none\n\n5. กรุงเทพประกันภัย (Bangkok Insurance)\n   - https://bangkokinsurance.com/claim/distributor\n\n6. ทิพยประกันภัย (Dhipaya Insurance)\n   - https://www.dhipaya.co.th/th/repairer\n\n7. ชับบ์สามัคคีประกันภัย (Chubb Samaggi Insurance)\n   - https://www.chubb.com/th-th/customer-service/our-garage-network.html\n\n8. เอ็มเอสไอจีประกันภัย (MSIG Insurance)\n   - https://www.msig-thai.com/th/claims/personal-insurance/motor-insurance#garage-form\n\n9. ไอโออิกรุงเทพประกันภัย (Aioi Nissay Dowa Insurance)\n   - https://www.aioibkkins.co.th/Claim/Dealer\n\n10. นวกิจประกันภัย (Navakij Insurance)\n    - https://www.navakij.co.th/th/claim\n\n11. คุ้มภัยโตเกียวมารีนประกันภัย (Tokio Marine Insurance)\n    - https://www.tokiomarine.com/th/th/non-life/find-a-service-provider/workshop-locator.html\n\n12. สินมั่งคงประกันภัย (Siam City Insurance)\n    - https://smkall.smk.co.th/cxp/webinsure/contact/1" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ขอบคุณที่ใช้บริการค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "e07e8c71-4fcd-46c2-9679-0f65e0fe27c1"
+  } ]
+}

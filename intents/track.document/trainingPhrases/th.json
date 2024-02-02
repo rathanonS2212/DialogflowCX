@@ -1,0 +1,539 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "ไม่พบเอกสารที่เกี่ยวข้องกับประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ใบสำคัญคุ้มครองประกันยังไม่ได้รับค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "หนังสือตกลงประกันยังไม่มาถึงค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ได้รับจดหมายทางการจากเจ้าหน้าที่ประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "กรมธรรม์ถึงไหนแล้ว"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับเอกสารประกันตัวที่จำเป็นค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ฉันไม่ได้รับใบเสร็จค่าเบี้ยประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เอกสารประกันยังไม่มาที่บ้านค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ทำไมยังไม่ได้รับเอกสารประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับเอกสารประกันต่าง ๆ ที่คาดว่าควรได้รับค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่เห็นมีข้อความอย่างเป็นทางการเกี่ยวกับประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่มีข้อมูลหรือเอกสารเกี่ยวกับประกันที่ควรได้รับค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับใบเสร็จชำระเบี้ยประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "อยากรู้ว่ากรมธรรม์ประกันส่งมายังคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ทราบว่าเอกสารที่เกี่ยวข้องกับประกันได้รับหรือยังคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เอกสารกรมธรรม์ประกันยังไม่มาถึงค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่เห็นมีเอกสารเกี่ยวกับประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "กรมธรรม์จะมาเมื่อไหร่"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "จ่ายเงินไปแล้วยังไม่ได้เอกสารกรมธรรม์เลย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับกรมธรรม์ประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่มีข้อมูลเกี่ยวกับกรมธรรม์ประกันที่ได้รับค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่เคยได้รับกรมธรรม์ประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับการติดต่อเกี่ยวกับประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่เคยเห็นกรมธรรม์ประกันมาสักทีค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ข้อมูลเกี่ยวกับกรมธรรม์ประกันยังไม่มาถึงค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ได้รับใบเสร็จค่าเบี้ยประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เอกสารกรมธรรม์ประกันไม่เห็นส่งมา"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "กรมธรรม์สถานะถึงไหนละคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอข้อมูลสถานะกรมธรรม์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ตอนนี้กรมธรรม์สถานะเป็นไงบ้างคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่เคยได้รับแจ้งเกี่ยวกับกรมธรรม์ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "กรมธรรม์ยังไม่มาถึงค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ได้รับเอกสารเกี่ยวกับประกันภัย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "มีข้อสงสัยเรื่องไม่ได้รับเอกสารประกันภัยที่สำคัญ เช่น กรมธรรม์ ใบเสร็จค่าเบี้ย หรือจดหมายครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่เห็นเอกสารประกันภัย รวมถึงกรมธรรม์ ใบเสร็จเบี้ยประกัน หรือจดหมายทางการ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เมื่อไหร่จะได้เอกสารประกัน ใบเสร็จการเงินประกัน หรือจดหมายอื่นๆครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ได้รับข้อมูลอะไรเลย เกี่ยวกับประกันภัย ทั้งกรมธรรม์ ใบเสร็จค่าเบี้ย หรือเอกสารทางการครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เอกสารจะมาเมื่อไหร่"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ทราบว่าเอกสารเกี่ยวกับประกันภัย เช่น กรมธรรม์ ใบเสร็จ จดหมาย จะส่งมาเมื่อไหร่ครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับข้อมูลเกี่ยวกับกรมธรรม์ประกัน ใบเสร็จเบี้ยประกัน หรือจดหมายทางการครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ได้รับเอกสารที่เกี่ยวข้องกับประกันภัย ไม่ว่าจะเป็นกรมธรรม์ ใบเสร็จการชำระเบี้ย หรือจดหมายครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เอกสารเกี่ยวกับการเอาประกันภัยยังไม่ได้รับค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ได้รับเอกสารการคุ้มครองประกันภัยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ประกันที่ซื้อยังไม่ได้รับเอกสารครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับจดหมาย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ได้รับข้อมูลเกี่ยวกับการคุ้มครองประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับใบเสร็จค่าเบี้ยประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ประกันที่ขอยังไม่ได้รับเลยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เอกสารเกี่ยวกับกรมประกันยังไม่มาค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับหนังสือประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ได้รับเอกสารประกันครับ มีปัญหาอะไรบ้างไหม"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ติดตามสถานะประกัน"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต่อพรบไปแล้วทำไมยังไม่ได้รับเอกสารคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับเมล์ ต่อประกันค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้ใบกรมธรรม์เลย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ได้เลข ก/ธ ยังคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ทราบว่า ได้ส่งกรมธรรม์ มาให้แล้วยังคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ผมยังไม่ได้รับเอกสารประกันภัยเลยครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เอกสารประกัน พี่ยังไม่ได้รับเลยนะคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "พรบยังไม่ได้ค่ะ วันนี้ได้รับแต่ กรมธรรม์"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ทราบว่า เงินคืนประกัน จะได้คืนประมาณวันไหนครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับเอกสาร ประกันภัยครับ ได้รับแต่ พรบ."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ซื้อประกัน พร้อม พรบ. แต่ยังไม่ได้รับเอกสาร พรบ."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "กรมธรรม์ตัวจริงเดือนกว่าแล้วยังไม่ได้ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ทราบว่า จะได้กรมเมื่อไหร่คะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "กรมธรรม์ประกันรถยังไม่ได้รับเลยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ขอเลขที่กรมธรรม์ได้มั้ยคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับเล่มประกันรถเลยคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "พรบ ยังไม่ได้เอกสารเลยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ซื้อไปแล้วยังไม่ได้กรมธรรม์เลย"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้เล่มกรมธรรม์เลยค่ะไม่แน่ใจส่งหรือยังคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับเลขกรมธรรม์ค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับ กรมธรรม์ ทางเมล์นะคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เอกสารประกันภัย"
+    }, {
+      "text": "รถยนต์",
+      "parameterId": "vehicle-type"
+    }, {
+      "text": "ได้เมื่อไรครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับเอกสารค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "กรมธรรม์ประกันภัยยังไม่ได้?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ใบประกันตัวจริงผมยังไม่ได้นะครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "จ่ายค่างวดประกันหมดแล้วยังไม่ได้รับเอกสาร "
+    }, {
+      "text": "นายชัยธวัช พิทักษ์ธรรมกุล",
+      "parameterId": "person"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "พอดียังไม่ได้รับเอกสาร"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "เอกสารประกันยังไม่ได้นะคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ทราบว่าตอนนี้ตารางกรมธรรม์ได้จัดส่งยังค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้รับอีเมล์ พรบ นะครับ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ยังไม่ได้เอกสารประกันภัยค่ะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ทราบได้จัดส่งเอกสารหรือยังคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ไม่ทราบว่าได้จัดส่งมาหรือยังคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ต่อประกันภัยยังไม่ได้รับเอกสารเลยคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "ทางบริษัทประกันยังไม่ได้ส่งข้อมูลมาให้ทางเมล์นะคะ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  }, {
+    "parts": [ {
+      "text": "สอบถามสถานะกรมธรรม์ ค่ะ ยังไม่ได้คำตอบ"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "th"
+  } ]
+}

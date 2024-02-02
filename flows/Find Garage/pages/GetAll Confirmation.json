@@ -1,0 +1,33 @@
+{
+  "name": "061e6cb2-c3ef-4f01-a6f4-0fbeb6144439",
+  "displayName": "GetAll Confirmation",
+  "form": {
+    "parameters": [ {
+      "displayName": "text2",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "คุณลูกค้าต้องการทราบข้อมูลของอู่ทั้งหมดหรือไม่คะ?" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "Intent classification",
+      "tag": "1"
+    },
+    "targetPage": "GetAll Confirmation Intent",
+    "name": "0f9d279a-5857-412b-8412-e4bc71554989"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "a317c792-9ebb-4d80-bb53-d799c6e96c92",
+  "displayName": "seek.garage",
+  "parameters": [ {
+    "id": "vehicle-type",
+    "entityType": "@vehicle-type"
+  } ],
+  "priority": 500000,
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 19
+}

@@ -1,0 +1,11 @@
+{
+  "name": "abf5b562-54f8-4e98-a1a7-db74d7d58812",
+  "displayName": "confirm.no",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 29
+}

@@ -1,0 +1,44 @@
+{
+  "name": "12888202-d5aa-42b4-bf54-57f9430acf06",
+  "displayName": "Collect Information",
+  "form": {
+    "parameters": [ {
+      "displayName": "user-information-contact",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "น้องคานะขอทราบรายละเอียดเพิ่มเติมตามด้านล่าง \nเพื่อส่งต่อให้กับเจ้าหน้าที่นะคะ" ]
+      },
+      "languageCode": "th"
+    }, {
+      "text": {
+        "text": [ "ชื่อ-นามสกุล : \nเบอร์โทรศัพท์ :\nเลขทะเบียนรถ :" ]
+      },
+      "languageCode": "th"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "intent",
+      "value": null
+    }, {
+      "parameter": "intent_score",
+      "value": null
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "GPT Requirements",
+    "name": "f952dd7f-35d4-4076-aa7c-f370d7335479"
+  } ]
+}

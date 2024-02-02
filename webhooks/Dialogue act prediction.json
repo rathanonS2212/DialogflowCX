@@ -1,0 +1,10 @@
+{
+  "name": "ec84e631-07b5-4557-a21d-cadb3dc9020f",
+  "displayName": "Dialogue act prediction",
+  "genericWebService": {
+    "uri": "https://ml-dev-onprem.appman.co.th/v1/alethia-tools/dialogue-act-prediction/dialogflow"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "0feba3c0-9d46-4f6e-a664-c191d43d5ce6",
+  "displayName": "seek.credit",
+  "parameters": [ {
+    "id": "vehicle-type",
+    "entityType": "@vehicle-type"
+  }, {
+    "id": "date",
+    "entityType": "@sys.date"
+  } ],
+  "priority": 500000,
+  "description": "State or inquire about car loans and refinancing with a financial institution or insurance service provider, including things like loan eligibility, refinancing, installment payments, and requesting loans.",
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 60
+}

@@ -1,0 +1,23 @@
+{
+  "name": "37d06a78-f56e-4f35-aa1d-bdd58d0ccbab",
+  "displayName": "Recommend Line Account",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "สินเชื่อรถยนต์ สามารถติดต่อผ่านช่องทาง กรุงศรี ออโต้ (https://page.line.me/089llnyg?openQrModal=true)" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "9587a181-baf6-42a1-a596-aab9c5f1a5a8"
+  } ]
+}

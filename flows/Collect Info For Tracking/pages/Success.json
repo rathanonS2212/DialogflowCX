@@ -1,0 +1,23 @@
+{
+  "name": "0092b50b-5a08-479e-b2e9-0b0eaa8b225b",
+  "displayName": "Success",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "API call : ติดต่อเจ้าหน้าที่" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "6158e912-7f9d-45cb-ba0e-97625570d3e6"
+  } ]
+}

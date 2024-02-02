@@ -1,0 +1,33 @@
+{
+  "name": "75abe600-a7c2-40b9-9a78-3adbaa8c2aae",
+  "displayName": "Confirmation",
+  "form": {
+    "parameters": [ {
+      "displayName": "text",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "คุณลูกค้าทราบชื่อบริษัทที่ทำประกันไว้ไหมคะ?" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "Intent classification",
+      "tag": "ๅ"
+    },
+    "targetPage": "Old Customer Intent",
+    "name": "ab43baaf-66ca-4c49-8c13-a343c13f5633"
+  } ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "0e66ab0d-3091-4889-840f-9af68b3b9546",
+  "displayName": "Get Question",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "get-last-utterance",
+    "tag": "1"
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "FAQ Flow",
+    "name": "616906b2-fd1a-4990-8574-b9798fda1b44"
+  } ]
+}

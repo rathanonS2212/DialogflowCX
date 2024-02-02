@@ -1,0 +1,17 @@
+{
+  "name": "91fca2fc-cc6d-42c9-b397-f001738d255d",
+  "displayName": "track.document",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  }, {
+    "id": "number-integer",
+    "entityType": "@sys.number-integer"
+  }, {
+    "id": "vehicle-type",
+    "entityType": "@vehicle-type"
+  } ],
+  "priority": 500000,
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 88
+}

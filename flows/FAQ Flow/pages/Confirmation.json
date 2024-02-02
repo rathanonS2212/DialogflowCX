@@ -1,0 +1,32 @@
+{
+  "name": "2d7516b2-b823-4c74-bb45-668493d4e248",
+  "displayName": "Confirmation",
+  "form": {
+    "parameters": [ {
+      "displayName": "text1",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ $session.params.question" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Validate Question Intent",
+    "name": "bc6a706e-318f-453e-8566-2827cf780bca"
+  } ]
+}

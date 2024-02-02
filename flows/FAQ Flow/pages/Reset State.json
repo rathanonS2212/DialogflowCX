@@ -1,0 +1,27 @@
+{
+  "name": "f453787d-8802-4254-a83b-ffc455432c2b",
+  "displayName": "Reset State",
+  "form": {
+    "parameters": [ {
+      "displayName": "question",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Intent Classify",
+    "name": "cb558cf3-bca6-4674-a39a-40cb71bdc80f"
+  } ]
+}

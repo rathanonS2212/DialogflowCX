@@ -1,0 +1,112 @@
+{
+  "name": "3fdcfd17-a5a1-4304-a166-dd1bc5902d15",
+  "displayName": "send doc 1",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "สวัสดีค่ะ"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "สวัสดีค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ถ้าโอนต่อประกันแล้ว ส่งสลิปที่นี่ได้เลยไหมคะ"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ ชำระเบี้ยประกันยังไง?" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ไม่ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.no"
+      },
+      "currentPage": {
+        "name": "More QA",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "คำถามของคุณใกล้เคียงกับ\n1. ส่งเอกสารที่ไหน?\n2. ประกันอะไหล่คืออะไร\n3. สอบถามข้อมูลประกันชีวิต" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "1. สามารถส่งได้ 2 วิธี\n1. ผ่านแอปพลิเคชัน LINE โดยเลือกเมนูสอบถามข้อมูล \u003e ส่งเอกสารเกี่ยวกับประกันภัย\n2. ผ่านทางไปรษณีย์ โดยส่งสารมาที่ บริษัท อยุธยา แคปปิตอล ออโต้ ลีส จำกัด (มหาชน)\nอาคารกรุงศรีเพลินจิต ทาวเวอร์ ชั้น 16 เลขที่ 550 ถนนเพลินจิต แขวงลุมพินี เขตปทุมวัน กรุงเทพมหานคร 10330\n2. ประกันอะไหล่คืออะไร คุ้มครองอะไรบ้าง?\n\nประกันอะไหล่ คือประกันเพิ่มเติมจากประกันรถยนต์ โดยจะคุ้มครองชิ้นส่วนอะไหล่ และระบบของรถยนต์ที่มีปัญหาจากการใช้งานตามปกติ โดยไม่ต้องสำรองจ่าย และสามารถแจ้งความต้องการได้เลยว่าต้องการให้ประกันอะไหล่เริ่มคุ้มครองวันไหน (ในกรณีที่รถยังไม่มีความคุ้มครองประกันอะไหล่ และผ่านการตรวจสภาพรถยนต์จากบริษัทประกันภัยเรียบร้อยแล้ว)\n\nประกันอะไหล่จะไม่คุ้มครองในส่วนของอะไหล่สิ้นเปลือง หรือ อะไหล่ชิ้นส่วนที่สึกหรอตามการใช้งาน เช่น น้ำมันเครื่อง ผ้าเบรค จานเบรค แบตเตอรี่ ยางรถยนต์ โช๊ค เป็นต้น\n3. ดูรายละเอียดประกันประกันชีวิต คลิก https://www.krungsriautobroker.com/product-category/lifeinsurance" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692688311,
+    "nanos": 82949000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

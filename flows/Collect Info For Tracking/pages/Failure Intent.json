@@ -1,0 +1,74 @@
+{
+  "name": "d991bfbe-e3e7-41a1-b46a-71932f9920af",
+  "displayName": "Failure Intent",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "phoneNumber",
+      "value": null
+    }, {
+      "parameter": "status",
+      "value": null
+    }, {
+      "parameter": "missingKeys",
+      "value": null
+    }, {
+      "parameter": "vehicleLicense",
+      "value": null
+    }, {
+      "parameter": "textMissingKeys",
+      "value": null
+    }, {
+      "parameter": "fullName",
+      "value": null
+    }, {
+      "parameter": "vehicleLicense",
+      "value": null
+    }, {
+      "parameter": "user-information-contact",
+      "value": null
+    }, {
+      "parameter": "confirm-info",
+      "value": null
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = agreement",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "vehicleLicense",
+        "value": ""
+      }, {
+        "parameter": "phoneNumber",
+        "value": ""
+      }, {
+        "parameter": "fullName",
+        "value": ""
+      }, {
+        "parameter": "user-info-contact",
+        "value": null
+      } ]
+    },
+    "targetPage": "Collect Information",
+    "name": "a4124168-0216-42e5-bfab-bf5f72307f81"
+  }, {
+    "condition": "$session.params.intent = disagreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Goodbye",
+    "name": "e9f1c966-6baa-4592-98d7-1311638e9634"
+  }, {
+    "condition": "$session.params.intent != agreement AND $session.params.intent != disagreement",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "confirm-refill-info",
+        "value": null
+      } ]
+    },
+    "targetPage": "Failure",
+    "name": "7535ea4d-9cc6-49d8-bfc8-bc422fad7d6c"
+  } ]
+}

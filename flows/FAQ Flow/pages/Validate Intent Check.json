@@ -1,0 +1,37 @@
+{
+  "name": "7293d330-eec9-4bc2-b77a-c02213ed3cf4",
+  "displayName": "Validate Intent Check",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = agreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Contact Agent",
+    "name": "d2907a63-09f5-4b33-afc9-4cc4cba37e1c"
+  }, {
+    "condition": "$session.params.intent = disagreement",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ขอบคุณที่ใช้บริการค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "a6a83dee-a6de-4c74-98b7-d251d6ccd6bf"
+  }, {
+    "condition": "$session.params.intent != agreement AND $session.params.intent != disagreement",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "text3",
+        "value": null
+      } ]
+    },
+    "targetPage": "Intent Check",
+    "name": "0cadfc44-93e3-48f2-ab61-64fc40c0b67c"
+  } ]
+}

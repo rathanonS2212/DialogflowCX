@@ -1,0 +1,43 @@
+{
+  "name": "f7c7b054-f9c0-4b1c-aeb3-bcc9bb13210f",
+  "displayName": "other-route-1",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ผมยังไม่ได้รับเอกสารประกันภัยเลยครับ"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "contract-number": "-"
+      },
+      "triggeredIntent": {
+        "name": "track.document"
+      },
+      "currentPage": {
+        "name": "Collect Information",
+        "flow": "Collect Info For Tracking"
+      },
+      "textResponses": [ {
+        "text": [ "น้องคานะ ขอทราบรายละเอียดเพิ่มเติมด้วยค่ะ\nเช่น ชื่อ นามสกุล เลขทะเบียนรถ และเลขที่สัญญา (ถ้ามี)" ]
+      }, {
+        "text": [ "ขอทราบชื่อ นามสกุลด้วยค่ะ" ]
+      } ],
+      "currentFlow": {
+        "name": "Collect Info For Tracking"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1691732035,
+    "nanos": 556899000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

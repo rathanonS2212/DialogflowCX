@@ -1,0 +1,62 @@
+{
+  "name": "9ecd0fa9-90f5-47a2-9363-69d324425120",
+  "displayName": "extended warranty explain",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ขอข้อมูลประกันอะไหล่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Confirmation",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "กรุณายืนยันคำถาม\n\nคำถามของคุณคือ ประกันอะไหล่คืออะไร" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ใช่"
+        },
+        "languageCode": "th"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "confirm.yes"
+      },
+      "currentPage": {
+        "name": "Intent Check",
+        "flow": "FAQ Flow"
+      },
+      "textResponses": [ {
+        "text": [ "ประกันอะไหล่คืออะไร คุ้มครองอะไรบ้าง?\n\nประกันอะไหล่ คือประกันเพิ่มเติมจากประกันรถยนต์ โดยจะคุ้มครองชิ้นส่วนอะไหล่ และระบบของรถยนต์ที่มีปัญหาจากการใช้งานตามปกติ โดยไม่ต้องสำรองจ่าย และสามารถแจ้งความต้องการได้เลยว่าต้องการให้ประกันอะไหล่เริ่มคุ้มครองวันไหน (ในกรณีที่รถยังไม่มีความคุ้มครองประกันอะไหล่ และผ่านการตรวจสภาพรถยนต์จากบริษัทประกันภัยเรียบร้อยแล้ว)\n\nประกันอะไหล่จะไม่คุ้มครองในส่วนของอะไหล่สิ้นเปลือง หรือ อะไหล่ชิ้นส่วนที่สึกหรอตามการใช้งาน เช่น น้ำมันเครื่อง ผ้าเบรค จานเบรค แบตเตอรี่ ยางรถยนต์ โช๊ค เป็นต้น" ]
+      }, {
+        "text": [ "ต้องการถามคำถามเพิ่มเติมหรือไม่คะ" ]
+      } ],
+      "currentFlow": {
+        "name": "FAQ Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1692176286,
+    "nanos": 401094000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

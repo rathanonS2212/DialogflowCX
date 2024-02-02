@@ -1,0 +1,95 @@
+{
+  "entities": [ {
+    "value": "Chevrolet",
+    "synonyms": [ "chevrolet", "เชฟโรเลต" ],
+    "languageCode": "th"
+  }, {
+    "value": "Toyota",
+    "synonyms": [ "toyota", "โตโยต้า" ],
+    "languageCode": "th"
+  }, {
+    "value": "Honda",
+    "synonyms": [ "honda", "ฮอนด้า" ],
+    "languageCode": "th"
+  }, {
+    "value": "Nissan",
+    "synonyms": [ "nissan", "นิสสัน" ],
+    "languageCode": "th"
+  }, {
+    "value": "Audi",
+    "synonyms": [ "Audi", "ออดี้" ],
+    "languageCode": "th"
+  }, {
+    "value": "BMW",
+    "synonyms": [ "BMW", "บีเอ็มดับเบิลยู" ],
+    "languageCode": "th"
+  }, {
+    "value": "Ford",
+    "synonyms": [ "Ford", "ฟอร์ด" ],
+    "languageCode": "th"
+  }, {
+    "value": "Hyundai",
+    "synonyms": [ "Hyundai", "ฮุนได" ],
+    "languageCode": "th"
+  }, {
+    "value": "Isuzu",
+    "synonyms": [ "Isuzu", "อีซุซุ" ],
+    "languageCode": "th"
+  }, {
+    "value": "Kia",
+    "synonyms": [ "Kia", "เกีย", "เคีย" ],
+    "languageCode": "th"
+  }, {
+    "value": "Land Rover",
+    "synonyms": [ "Land Rover", "แลนด์โรเวอร์" ],
+    "languageCode": "th"
+  }, {
+    "value": "Lexus",
+    "synonyms": [ "Lexus", "เล็กซัส" ],
+    "languageCode": "th"
+  }, {
+    "value": "Mazda",
+    "synonyms": [ "Mazda", "มาสด้า" ],
+    "languageCode": "th"
+  }, {
+    "value": "Mercedes-Benz",
+    "synonyms": [ "Benz", "Mercedes-Benz", "เบ้นซ์" ],
+    "languageCode": "th"
+  }, {
+    "value": "MG",
+    "synonyms": [ "MG", "เอ็มจี" ],
+    "languageCode": "th"
+  }, {
+    "value": "Mitsubishi",
+    "synonyms": [ "Mitsubishi", "มิซุบิชิ" ],
+    "languageCode": "th"
+  }, {
+    "value": "Proton",
+    "synonyms": [ "Proton", "โปรตอน", "โปรทอน" ],
+    "languageCode": "th"
+  }, {
+    "value": "Suzuki",
+    "synonyms": [ "Suzuki", "ซุซุกิ" ],
+    "languageCode": "th"
+  }, {
+    "value": "Tata",
+    "synonyms": [ "Tata", "ทาท่า" ],
+    "languageCode": "th"
+  }, {
+    "value": "TR",
+    "synonyms": [ "TR", "ทีอาร์" ],
+    "languageCode": "th"
+  }, {
+    "value": "Volvo",
+    "synonyms": [ "Volvo", "วอลโว่" ],
+    "languageCode": "th"
+  }, {
+    "value": "ORA",
+    "synonyms": [ "ORA", "โอร่า" ],
+    "languageCode": "th"
+  }, {
+    "value": "Chery",
+    "synonyms": [ "Chery" ],
+    "languageCode": "th"
+  } ]
+}

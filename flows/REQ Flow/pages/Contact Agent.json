@@ -1,0 +1,23 @@
+{
+  "name": "abac8957-ce91-4b9d-a699-4801c23f6ed2",
+  "displayName": "Contact Agent",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "API call : ติดต่อเจ้าหน้าที่" ]
+      },
+      "languageCode": "th"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "08751443-3484-465b-80aa-07bad21fc678"
+  } ]
+}

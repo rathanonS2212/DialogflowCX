@@ -1,0 +1,31 @@
+{
+  "entities": [ {
+    "value": "รถยนต์",
+    "synonyms": [ "car", "รถ" ],
+    "languageCode": "th"
+  }, {
+    "value": "มอเตอร์ไซต์",
+    "synonyms": [ "motorbike", "motorcycle", "มอเตอร์ไซต์", "มอเตอร์ไซด์" ],
+    "languageCode": "th"
+  }, {
+    "value": "มอไซต์",
+    "synonyms": [ "มอไซค์", "มอไซต์" ],
+    "languageCode": "th"
+  }, {
+    "value": "บิ๊กไบค์",
+    "synonyms": [ "big bike", "บิ๊กไบค์" ],
+    "languageCode": "th"
+  }, {
+    "value": "รถยนต์ไฟฟ้า",
+    "synonyms": [ "electric car", "รถไฟฟ้า", "รถยนต์ไฟฟ้า" ],
+    "languageCode": "th"
+  }, {
+    "value": "รถจักรยานยนต์",
+    "synonyms": [ "รถจักรยานยนต์" ],
+    "languageCode": "th"
+  }, {
+    "value": "รถบรรทุก",
+    "synonyms": [ "รถบรรทุก" ],
+    "languageCode": "th"
+  } ]
+}

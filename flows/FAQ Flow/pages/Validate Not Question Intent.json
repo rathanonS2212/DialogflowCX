@@ -1,0 +1,33 @@
+{
+  "name": "c326f9d2-9ecf-4ca8-9c3b-fa1d1097c41d",
+  "displayName": "Validate Not Question Intent",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = agreement",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "question",
+        "value": null
+      }, {
+        "parameter": "text",
+        "value": null
+      } ]
+    },
+    "targetPage": "Ask Question State",
+    "name": "bbcf56c5-7a3a-4e78-8a90-96c203e31030"
+  }, {
+    "condition": "$session.params.intent != agreement",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ขออภัยในความไม่สะดวก ขอบคุณที่ใช้บริการค่ะ" ]
+        },
+        "languageCode": "th"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "c9d90eb5-3814-42e9-9d2c-b242e9ebe292"
+  } ]
+}

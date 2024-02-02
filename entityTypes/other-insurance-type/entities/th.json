@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "ชีวิต",
+    "synonyms": [ "ชีวิต" ],
+    "languageCode": "th"
+  }, {
+    "value": "บ้าน",
+    "synonyms": [ "บ้าน" ],
+    "languageCode": "th"
+  }, {
+    "value": "สุขภาพ",
+    "synonyms": [ "สุขภาพ" ],
+    "languageCode": "th"
+  }, {
+    "value": "โรคร้ายแรง",
+    "synonyms": [ "โรคร้ายแรง" ],
+    "languageCode": "th"
+  }, {
+    "value": "การเดินทาง",
+    "synonyms": [ "การเดินทาง" ],
+    "languageCode": "th"
+  }, {
+    "value": "อุบัติเหตุ",
+    "synonyms": [ "อุบัติเหตุ" ],
+    "languageCode": "th"
+  } ]
+}

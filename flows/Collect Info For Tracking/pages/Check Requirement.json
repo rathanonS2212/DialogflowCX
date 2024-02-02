@@ -1,0 +1,22 @@
+{
+  "name": "95d1a526-b940-4b70-86bf-5731f7b9d994",
+  "displayName": "Check Requirement",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.textMissingKeys = \"\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirmation",
+    "name": "a4fe880f-53a1-4a94-ab75-aa21b3fc0ee2"
+  }, {
+    "condition": "$session.params.textMissingKeys != \"\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Missing",
+    "name": "bad8e2dd-0ab3-44f1-9c22-de2e1360d6a7"
+  } ]
+}

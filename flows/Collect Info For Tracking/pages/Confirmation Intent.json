@@ -1,0 +1,32 @@
+{
+  "name": "0bcf39dc-1785-4cf0-8b21-a10490dfc607",
+  "displayName": "Confirmation Intent",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.intent = agreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Success",
+    "name": "1f1a59b5-bad4-4b51-b7ec-0345facc2137"
+  }, {
+    "condition": "$session.params.intent = disagreement",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Failure",
+    "name": "575642b5-843d-4e28-a083-590ad5ad0be5"
+  }, {
+    "condition": "$session.params.intent != agreement AND $session.params.intent != disagreement",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "confirm-info",
+        "value": null
+      } ]
+    },
+    "targetPage": "Confirmation",
+    "name": "1ece7412-a849-449e-b589-09e36a73ca6a"
+  } ]
+}

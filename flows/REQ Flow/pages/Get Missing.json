@@ -1,0 +1,36 @@
+{
+  "name": "2c9fed00-aeac-4e2d-8d59-ac3686be8d60",
+  "displayName": "Get Missing",
+  "form": {
+    "parameters": [ {
+      "displayName": "user-information",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "รบกวนคุณลูกค้ากรอกข้อมูลที่เหลือด้วยค่ะ\n$session.params.textMissingKeys" ]
+      },
+      "languageCode": "th"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "user-information",
+      "value": null
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "GPT Requirements",
+    "name": "575ae0e0-d263-4a40-863f-6355ca5d8879"
+  } ]
+}
